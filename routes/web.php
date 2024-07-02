@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('page.home.Home');
+    return view('page.home.home');
 })->name('index');
 
 /**
@@ -13,20 +13,20 @@ Route::get('/', function () {
  */
 Route::prefix('/trading')->group(function() {
     Route::get('/account_type', function () {
-        return view('page.trading.AccountType');
-    })->name('account_type');
+        return view('page.trading.account_type');
+    })->name('trading.account_type');
 
     Route::get('/products', function () {
-        return view('welcome');
-    })->name('products');
+        return view('page.trading.products');
+    })->name('trading.products');
 
     Route::get('/download', function () {
-        return view('welcome');
-    })->name('download');
+        return view('page.trading.download');
+    })->name('trading.download');
 });
 
 Route::get('/platform', function () {
-    return view('welcome');
+    return view('page.platform');
 })->name('platform');
 
 /**
@@ -36,16 +36,12 @@ Route::get('/platform', function () {
  */
 Route::prefix('/partnership')->group(function() {
     Route::get('/introduction_broker', function () {
-        return view('welcome');
-    })->name('introduction_broker');
+        return view('page.partnership.introduction_broker');
+    })->name('partnership.introduction_broker');
 
     Route::get('/regional_country', function () {
-        return view('welcome');
-    })->name('regional_country');
-
-    Route::get('/partner', function () {
-        return view('welcome');
-    })->name('partner');
+        return view('page.partnership.regional_country');
+    })->name('partnership.regional_country');
 });
 
 /**
@@ -55,14 +51,14 @@ Route::prefix('/partnership')->group(function() {
  */
 Route::prefix('/company')->group(function() {
     Route::get('/about', function () {
-        return view('page.About');
-    })->name('about');
+        return view('page.company.about');
+    })->name('company.about');
     
     Route::get('/contact', function () {
-        return view('page.Contact');
-    })->name('contact');
+        return view('page.company.contact');
+    })->name('company.contact');
 
     Route::get('/aml_policy', function () {
-        return view('welcome');
-    })->name('aml_policy');
+        return view('page.company.aml_policy');
+    })->name('company.aml_policy');
 });

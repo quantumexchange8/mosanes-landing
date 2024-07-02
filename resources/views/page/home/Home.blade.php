@@ -5,13 +5,13 @@
     <!-- slideshow content begin -->
     <div class="uk-section uk-padding-remove-vertical">
         <div class="in-slideshow uk-visible-toggle" data-uk-slideshow>
-            <ul class="uk-slideshow-items">
+            <ul class="uk-slideshow-items" style="background-color: white;">
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.SlideOverlayText1')
-                            <div class="uk-position-center" style="background: url({{ asset('img/man-checking-stock-market-data-tablet.png') }}) no-repeat center; ">
-                                <img src="{{ asset('img/in-lazy.svg') }}" data-src="{{ asset('img/in-slideshow-image-1.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
+                            @include('page.home.slide_overlay_text1')
+                            <div class="uk-position-center">
+                                <img src="{{ asset('img/in-lazy.svg') }}" data-src="{{ asset('img/man-checking-stock-market-data-tablet.png')    }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.SlideOverlayText2')
+                            @include('page.home.slide_overlay_text2')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/people-office-analyzing-checking-finance-graphs.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
@@ -29,7 +29,7 @@
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.SlideOverlayText1')
+                            @include('page.home.slide_overlay_text1')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/successful-smart-caucasian-businessman-walking-stair-trade-stock-with-smartphone-communicate-with-happiness-enthusiastic-modern-office-background.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
@@ -39,7 +39,7 @@
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.SlideOverlayText2')
+                            @include('page.home.slide_overlay_text2')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/abstract-background-chart-stock-market-generative-ai.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
@@ -145,8 +145,8 @@
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
                 <div class="uk-text-center">
-                    <div class="green-title">The advantage of QCG</div>
-                    <div class="green-title">is different from others</div>
+                    <div class="primary-title">The advantage of QCG</div>
+                    <div class="primary-title">is different from others</div>
 
                     <p class="uk-text-lead">Elevate your finances with Quantum Capital Group in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>

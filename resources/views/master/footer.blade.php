@@ -5,31 +5,26 @@
                 <div>
                     <h4 class="uk-heading-bullet">Overview</h4>
                     <ul class="uk-list uk-link-text">
-                        <li><a href="#">Stock indices</a></li>
-                        <li><a href="#">Commodities</a></li>
-                        <li><a href="#">Forex</a></li>
+                        <li><a href="{{ route('index') }}">Home</a></li>
+                        <li><a href="{{ route('trading.account_type') }}">Account Type</a></li>
+                        <li><a href="{{ route('trading.products') }}">Products</a></li>
+                        <li><a href="{{ route('trading.download') }}">Download</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="uk-heading-bullet">cTrader</h4>
+                    <ul class="uk-list uk-link-text">
+                        <li><a href="{{ route('platform') }}">cTrader</a></li>
+                        <li><a href="{{ route('partnership.introduction_broker') }}">Introduction Broker (IB)</a></li>
+                        <li><a href="{{ route('partnership.regional_country') }}">Regional and Country Partner</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="uk-heading-bullet">Company</h4>
                     <ul class="uk-list uk-link-text">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="uk-heading-bullet">Legal</h4>
-                    <ul class="uk-list uk-link-text">
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                        <li><a href="#">Privacy &amp; Policy</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="uk-visible@m">
-                    <h4 class="uk-heading-bullet">Support</h4>
-                    <ul class="uk-list uk-link-text">
-                        <li><a href="#">Documentation</a></li>
+                        <li><a href="{{ route('company.about') }}">About Us</a></li>
+                        <li><a href="{{ route('company.contact') }}">Contact Us</a></li>
+                        <li><a href="{{ route('company.aml_policy') }}">AML Policy</a></li>
                     </ul>
                 </div>
                 <div class="uk-flex-first uk-flex-last@m">
@@ -38,8 +33,7 @@
                         <span class="logo-text" style="color: white">Mosanes.</span>
                     </div>
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
-                        <li><a href="#"><i class="fas fa-envelope uk-margin-small-right"></i>info@profit.id</a></li>
-                        <li><a href="#"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Jakarta, Indonesia</a></li>
+                        <li><a href="#"><i class="fas fa-envelope uk-margin-small-right"></i>support@qcgbroker.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,17 +45,7 @@
                     </div>
                 </div>
                 <div class="uk-width-1-2@m">
-                    <p class="copyright-text">© Profit Inc 2020. All rights reserved.</p>
-                </div>
-                <div class="uk-width-1-2@m uk-flex uk-flex-right@m">
-                    <!-- social media begin -->
-                    <div class="uk-flex social-media-list">
-                    <div><a href="https://www.facebook.com/indonez" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
-                    <div><a href="https://twitter.com/indonez_tw" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
-                    <div><a href="https://www.instagram.com/indonez_ig" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
-                    <div><a href="#some-link" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
-                    </div>
-                    <!-- social media end -->
+                    <p class="copyright-text">© Mosanes. All rights reserved.</p>
                 </div>
             </div>
         </div>        

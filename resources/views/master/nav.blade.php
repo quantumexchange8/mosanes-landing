@@ -84,34 +84,54 @@
                         <span class="logo-text">Mosanes.</span>
                     </a>
                     <ul class="uk-navbar-nav uk-visible@m">
-                        <li><a href="{{ route('index') }}">Home</a>
-                        <li><a href="#">Trading<span data-uk-navbar-parent-icon></span></a>
+                        <li class="{{ request()->routeIs('index') ? 'uk-active' : '' }}">
+                            <a href="{{ route('index') }}">Home</a>
+                        </li>
+                        <li class="{{ request()->routeIs('trading.*') ? 'uk-active' : '' }}">
+                            <a href="#">Trading<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="{{ route('account_type') }}">Account Type</a></li>
-                                    <li><a href="{{ route('products') }}">Products</a></li>
-                                    <li><a href="{{ route('download') }}">Download</a></li>
+                                    <li class="{{ request()->routeIs('trading.account_type') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('trading.account_type') }}">Account Type</a>
+                                    </li>
+                                    <li class="{{ request()->routeIs('trading.products') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('trading.products') }}">Products</a>
+                                    </li>
+                                    <li class="{{ request()->routeIs('trading.download') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('trading.download') }}">Download</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li class="{{ request()->routeIs('platform') ? 'uk-active' : '' }}">
                             <a href="{{ route('platform') }}">Platform</a>
                         </li>
-                        <li><a href="#">Partnership<span data-uk-navbar-parent-icon></span></a>
+                        <li class="{{ request()->routeIs('partnership.*') ? 'uk-active' : '' }}">
+                            <a href="#">Partnership<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="{{ route('introduction_broker') }}">Introduction Broker (IB)</a></li>
-                                    <li><a href="{{ route('regional_country') }}">Regional & Country</a></li>
-                                    <li><a href="#">Partner</a></li>
+                                    <li class="{{ request()->routeIs('partnership.introduction_broker') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('partnership.introduction_broker') }}">Introduction Broker (IB)</a>
+                                    </li>
+                                    <li class="{{ request()->routeIs('partnership.regional_country') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('partnership.regional_country') }}">Regional & Country Partner</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="#">Company<span data-uk-navbar-parent-icon></span></a>
+                        <li class="{{ request()->routeIs('company.*') ? 'uk-active' : '' }}">
+                            <a href="#">Company<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                                    <li><a href="{{ route('aml_policy') }}">AML Policy</a></li>
+                                    <li class="{{ request()->routeIs('company.about') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('company.about') }}">About Us</a>
+                                    </li>
+                                    <li class="{{ request()->routeIs('company.contact') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('company.contact') }}">Contact Us</a>
+                                    </li>
+                                    <li class="{{ request()->routeIs('company.aml_policy') ? 'uk-active' : '' }}">
+                                        <a href="{{ route('company.aml_policy') }}">AML Policy</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -120,7 +140,7 @@
                 <div class="uk-navbar-right uk-width-auto">
                     <div class="uk-navbar-item uk-visible@m in-optional-nav">
                         <div>
-                            <a href="signin.html" class="uk-button uk-button-link">Login</a>
+                            <a href="#" class="uk-button uk-button-link">Login</a>
                             <a href="#" class="uk-button uk-button-link">Sign up</a>
                         </div>
                     </div>
