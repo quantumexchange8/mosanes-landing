@@ -31,7 +31,9 @@
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
     <!-- touch icon -->
     <link rel="apple-touch-icon-precomposed" href="{{ asset('img/apple-touch-icon.png') }}">
-    <title>Homepage</title>
+    <title>
+        @yield('title')
+    </title>
 </head>
 
 <body>

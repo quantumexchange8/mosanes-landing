@@ -1,4 +1,8 @@
 @extends('master.master')
+@section('title')
+    {{ __($title) }}
+@endsection
+
 @section('content')
 
 <main>
@@ -58,7 +62,7 @@
                                     <i class="fas fa-drafting-compass"></i>
                                 </div>
                                 <div>
-                                    <p class="uk-text-bold uk-margin-remove">Enhanced Tools</p>
+                                    <p class="uk-text-bold uk-margin-remove">{{ __('Enhanced Tools') }}</p>
                                 </div>
                             </div>
                             <div class="uk-flex uk-flex-middle">
@@ -66,7 +70,7 @@
                                     <i class="fas fa-book"></i>
                                 </div>
                                 <div>
-                                    <p class="uk-text-bold uk-margin-remove">Trading Guides</p>
+                                    <p class="uk-text-bold uk-margin-remove">{{ __('Trading Guides') }}</p>
                                 </div>
                             </div>
                             <div class="uk-flex uk-flex-middle">
@@ -74,7 +78,7 @@
                                     <i class="fas fa-bolt"></i>
                                 </div>
                                 <div>
-                                    <p class="uk-text-bold uk-margin-remove">Fast execution</p>
+                                    <p class="uk-text-bold uk-margin-remove">{{ __('Fast execution') }}</p>
                                 </div>
                             </div>
                             <div class="uk-flex uk-flex-middle">
@@ -82,7 +86,7 @@
                                     <i class="fas fa-percentage"></i>
                                 </div>
                                 <div>
-                                    <p class="uk-text-bold uk-margin-remove">0% Commission</p>
+                                    <p class="uk-text-bold uk-margin-remove">{{ __('0% Commission') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -97,8 +101,10 @@
         <div class="uk-container">
             <div class="uk-grid-divider" data-uk-grid>
                 <div class="uk-width-expand@m in-margin-top-20@s">
-                    <h2>Why Profit Inc is a trusted FX broker</h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sunt in anim culpa qui officia.</p>
+                    <h2>{{ __('Why Choose Quantum Capital Global?') }}</h2>
+                    <p>
+                        {{ __('Quantum Capital Global is committed to delivering a transparent, secure, and reliable trading environment, where traders can access the world\'s financial markets with ease and confidence.') }}
+                    </p>
                 </div>
                 <div class="uk-width-2-3@m">
                     <div class="uk-child-width-1-2@s uk-child-width-1-2@m" data-uk-grid>
@@ -107,7 +113,7 @@
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-icon-1.svg" alt="profit-icon" width="72" height="72" data-uk-img>
                             </div>
                             <div>
-                                <p class="uk-text-bold uk-margin-remove">Wide Range of Trading Instruments</p>
+                                <p class="uk-text-bold uk-margin-remove">{{ __('Wide Range of Trading Instruments') }}</p>
                             </div>
                         </div>
                         <div class="uk-flex uk-flex-middle">
@@ -115,7 +121,7 @@
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-icon-2.svg" alt="profit-icon" width="72" height="72" data-uk-img>
                             </div>
                             <div>
-                                <p class="uk-text-bold uk-margin-remove">Unparalleled Trading Conditions</p>
+                                <p class="uk-text-bold uk-margin-remove">{{ __('Unparalleled Trading Conditions') }}</p>
                             </div>
                         </div>
                         <div class="uk-flex uk-flex-middle">
@@ -123,7 +129,7 @@
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-icon-3.svg" alt="profit-icon" width="72" height="72" data-uk-img>
                             </div>
                             <div>
-                                <p class="uk-text-bold uk-margin-remove">Globally Licensed & Regulated</p>
+                                <p class="uk-text-bold uk-margin-remove">{{ __('Globally Licensed & Regulated') }}</p>
                             </div>
                         </div>
                         <div class="uk-flex uk-flex-middle">
@@ -131,7 +137,7 @@
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-icon-4.svg" alt="profit-icon" width="72" height="72" data-uk-img>
                             </div>
                             <div>
-                                <p class="uk-text-bold uk-margin-remove">Committed to Forex Education</p>
+                                <p class="uk-text-bold uk-margin-remove">{{ __('Committed to Forex Education') }}</p>
                             </div>
                         </div>
                     </div>
@@ -145,10 +151,10 @@
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
                 <div class="uk-text-center">
-                    <div class="primary-title">The advantage of QCG</div>
-                    <div class="primary-title">is different from others</div>
+                    <div class="primary-title">{{ __('The advantage of QCG') }}</div>
+                    <div class="primary-title">{{ __('is different from others') }}</div>
 
-                    <p class="uk-text-lead">Elevate your finances with Quantum Capital Group in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.</p>
+                    <p class="uk-text-lead">{{ __('Elevate your finances with Quantum Capital Group in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>
                 </div>
                 <div class="uk-width-5-6@m">
@@ -162,10 +168,10 @@
                                     </div>
                                     <div class="uk-card-body">
                                         <div class="in-heading-extra in-card-decor-1">
-                                            <h2 class="uk-margin-remove-bottom">Economic</h2>
-                                            <p class="uk-text-lead">Analysis</p>
+                                            <h2 class="uk-margin-remove-bottom">{{ __('Economic') }}</h2>
+                                            <p class="uk-text-lead">{{ __('Analysis') }}</p>
                                         </div>
-                                        <p class="uk-margin-small-top">Stay ahead of the markets with world-leading market analysis through daily webinars by industry experts.</p>
+                                        <p class="uk-margin-small-top">{{ __('Stay ahead of the markets with world-leading market analysis through daily webinars by industry experts.') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -179,10 +185,10 @@
                                     </div>
                                     <div class="uk-card-body">
                                         <div class="in-heading-extra in-card-decor-2">
-                                            <h2 class="uk-margin-remove-bottom">Technical</h2>
-                                            <p class="uk-text-lead">Analysis</p>
+                                            <h2 class="uk-margin-remove-bottom">{{ __('Technical') }}</h2>
+                                            <p class="uk-text-lead">{{ __('Analysis') }}</p>
                                         </div>
-                                        <p class="uk-margin-small-top">Access the financial markets with an account catered to your needs and benefit from good conditions.</p>
+                                        <p class="uk-margin-small-top">{{ __('Access the financial markets with an account catered to your needs and benefit from good conditions.') }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -194,15 +200,15 @@
                                         <div class="uk-flex" data-uk-margin>
                                             <a href="#" class="uk-button in-button-app uk-margin-small-right">
                                                 <i class="fab fa-google-play fa-2x"></i>
-                                                <span class="wrapper">Download from<br><span>Play Store</span></span>
+                                                <span class="wrapper">{{ __('Download from') }}<br><span>Play Store</span></span>
                                             </a>
                                             <a href="#" class="uk-button in-button-app">
                                                 <i class="fab fa-apple fa-2x"></i>
-                                                <span class="wrapper">Download from<br><span>App Store</span></span>
+                                                <span class="wrapper">{{ __('Download from') }}<br><span>App Store</span></span>
                                             </a>
                                         </div>
                                         <hr>
-                                        <p>Trade on <span class="uk-text-bold uk-text-primary">Mosanes Technology Limited world class platform</span> without a doubt.</p>
+                                        <p>{{ __('Trade on') }} <span class="uk-text-bold uk-text-primary">{{ __('Mosanes Technology Limited world class platform') }}</span> {{ __('without a doubt.') }}</p>
                                     </div>
                                     <div class="uk-visible@m">
                                         <img src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-mockup-1.png" width="450" height="203" alt="profit-mockup" data-uk-img>
@@ -222,13 +228,13 @@
                                             </div>
                                             <div class="uk-width-expand">
                                                 <h1 class="uk-margin-remove-bottom">324,978,126</h1>
-                                                <p class="uk-text-uppercase uk-text-primary uk-text-small uk-margin-remove-top">Trades Opened at Profit</p>
+                                                <p class="uk-text-uppercase uk-text-primary uk-text-small uk-margin-remove-top">{{ __('Trades Opened at QCG') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-width-expand@m uk-flex-middle">
-                                    <p class="uk-text-lead">Trade & Invest in Stocks, Currencies, Indices, and Commodities (CFDs).</p>
+                                    <p class="uk-text-lead">{{ __('Trade & Invest in Stocks, Currencies, Indices, and Commodities (CFDs).') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +249,7 @@
         <div class="uk-container uk-margin-small-bottom">
             <div class="uk-grid-large" data-uk-grid>
                 <div class="uk-width-1-2@m">
-                    <h2>We are committed to meeting your CFD and FX trading needs</h2>
+                    <h2>{{ __('We are committed to meeting your CFD and FX trading needs') }}</h2>
                     <p class="uk-text-lead">Excepteur occaeca cupidata non proident fugiat nulla pariatur quasi architecto beatae, sunt in culpa quila officia deserunt mollit anim id est aute laborum.</p>
                 </div>
                 <div class="uk-width-1-1">
@@ -285,10 +291,12 @@
                 <div class="uk-width-5-6@m">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-expand@m">
-                            <h2>Connect to global capital markets</h2>
+                            <h2>{{ __('Connect to global capital markets') }}</h2>
                         </div>
                         <div class="uk-width-3-5@m">
-                            <p class="uk-text-lead">Access 40,000+ trading instruments and professional asset management on award-winning platforms.</p>
+                            <p class="uk-text-lead">
+                                {{ __('Access 40,000+ trading instruments and professional asset management on award-winning platforms.') }}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -349,21 +357,20 @@
                 <div class="uk-width-5-6@m uk-margin-medium-bottom">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-auto@m">
-                            <h4 class="uk-margin-remove-bottom uk-text-primary">Ready to trade?</h4>
-                            <p class="uk-margin-remove-top">Get started with your trading account today.</p>
+                            <h4 class="uk-margin-remove-bottom uk-text-primary">{{ __('Ready to trade?') }}</h4>
+                            <p class="uk-margin-remove-top">{{ __('Get started with your trading account today.') }}</p>
                         </div>
                         <div class="uk-width-expand@m">
-                            <form class="uk-grid-small" data-uk-grid>
-                                <div class="uk-width-1-1 uk-width-expand@m">
-                                    <input class="uk-input uk-border-rounded" type="text" placeholder="Email address...">
+                            <div class="uk-grid-small">
+                                <div class="uk-width-1-1 uk-width-auto@m uk-flex" style="gap: 2rem">
+                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">
+                                        <a class="uk-text-decoration-none uk-text-center" style="color: white;" href="{{ route('trading.download') }}">{{ __('Download') }}</a>
+                                    </button>
+                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">
+                                        <a class="uk-text-decoration-none" style="color: white;" href="#">{{ __('Sign up') }}</a>
+                                    </button>
                                 </div>
-                                <div class="uk-width-1-1 uk-width-expand@m">
-                                    <input class="uk-input uk-border-rounded" type="text" placeholder="Phone number...">
-                                </div>
-                                <div class="uk-width-1-1 uk-width-auto@m">
-                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">Open Account</button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>

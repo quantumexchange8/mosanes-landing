@@ -75,62 +75,71 @@
             </div>
         </div>
     </div>
+    <div class="uk-flex uk-flex-right uk-container">
+        @include('master.language_switcher')
+    </div>
     <div class="uk-section uk-padding-remove-vertical">
         <nav class="uk-navbar-container" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
             <div class="uk-container" data-uk-navbar>
                 <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between">
                     <a class="uk-navbar-item uk-logo" href="{{ route('index') }}">
                         <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/Logo.svg') }}" alt="logo" width="28" height="28" data-uk-img>
-                        <span class="logo-text">Mosanes.</span>
+                        <span class="logo-text">{{ __('Mosanes.') }}</span>
                     </a>
                     <ul class="uk-navbar-nav uk-visible@m">
                         <li class="{{ request()->routeIs('index') ? 'uk-active' : '' }}">
-                            <a href="{{ route('index') }}">Home</a>
+                            <a href="{{ route('index') }}">{{ __('Home') }}</a>
                         </li>
                         <li class="{{ request()->routeIs('trading.*') ? 'uk-active' : '' }}">
-                            <a href="#">Trading<span data-uk-navbar-parent-icon></span></a>
+                            <a href="#">
+                                {{ __('Trading') }}<span data-uk-navbar-parent-icon></span>
+                            </a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="{{ request()->routeIs('trading.account_type') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('trading.account_type') }}">Account Type</a>
+                                        <a href="{{ route('trading.account_type') }}">{{ __('Account Type') }}</a>
                                     </li>
                                     <li class="{{ request()->routeIs('trading.products') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('trading.products') }}">Products</a>
+                                        <a href="{{ route('trading.products') }}">{{ __('Products') }}</a>
                                     </li>
                                     <li class="{{ request()->routeIs('trading.download') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('trading.download') }}">Download</a>
+                                        <a href="{{ route('trading.download') }}">{{ __('Download') }}</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="{{ request()->routeIs('platform') ? 'uk-active' : '' }}">
-                            <a href="{{ route('platform') }}">Platform</a>
+                            <a href="{{ route('platform') }}">{{ __('Platform') }}</a>
                         </li>
                         <li class="{{ request()->routeIs('partnership.*') ? 'uk-active' : '' }}">
-                            <a href="#">Partnership<span data-uk-navbar-parent-icon></span></a>
+                            <a href="#">
+                                {{ __('Partnership') }}<span data-uk-navbar-parent-icon></span>
+                            </a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="{{ request()->routeIs('partnership.introduction_broker') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('partnership.introduction_broker') }}">Introduction Broker (IB)</a>
+                                        <a href="{{ route('partnership.introduction_broker') }}">{{ __('Introduction Broker (IB)') }}</a>
                                     </li>
                                     <li class="{{ request()->routeIs('partnership.regional_country') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('partnership.regional_country') }}">Regional & Country Partner</a>
+                                        <a href="{{ route('partnership.regional_country') }}">{{ __('Regional & Country Partner') }}</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li class="{{ request()->routeIs('company.*') ? 'uk-active' : '' }}">
-                            <a href="#">Company<span data-uk-navbar-parent-icon></span></a>
+                            <a href="#">
+                                {{ __('Company') }}<span data-uk-navbar-parent-icon></span>
+                            </a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="{{ request()->routeIs('company.about') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('company.about') }}">About Us</a>
+                                        <a href="{{ route('company.about') }}">{{ __('About Us') }}</a>
                                     </li>
                                     <li class="{{ request()->routeIs('company.contact') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('company.contact') }}">Contact Us</a>
+                                        <a href="{{ route('company.contact') }}">{{ __('Contact Us') }}</a>
                                     </li>
                                     <li class="{{ request()->routeIs('company.aml_policy') ? 'uk-active' : '' }}">
-                                        <a href="{{ route('company.aml_policy') }}">AML Policy</a>
+                                        <a href="{{ route('company.aml_policy') }}">{{ __('AML Policy') }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -140,8 +149,8 @@
                 <div class="uk-navbar-right uk-width-auto">
                     <div class="uk-navbar-item uk-visible@m in-optional-nav">
                         <div>
-                            <a href="#" class="uk-button uk-button-link">Login</a>
-                            <a href="#" class="uk-button uk-button-link">Sign up</a>
+                            <a href="#" class="uk-button uk-button-link">{{ __('Login') }}</a>
+                            <a href="#" class="uk-button uk-button-link">{{ __('Sign up') }}</a>
                         </div>
                     </div>
                 </div>
