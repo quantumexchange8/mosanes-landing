@@ -76,7 +76,7 @@
                                                     {{ __('quantum capital global windows trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
-                                                    {{ __('Trade from your desktop with cTrader/ match-trader , the fastest platform now on the market.') }}
+                                                    {{ __('Trade from your desktop with cTrader, the fastest platform now on the market.') }}
                                                 </p>
                                             </div>
                                             <div class="uk-text-center">
@@ -85,7 +85,7 @@
                                                     {{ __('quantum capital global iphone trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
-                                                    {{ __('Our advanced cTrader/ match-trader iPhone Trader allows you to place position instantly—-anywhere, anytime.') }}
+                                                    {{ __('Our advanced cTrader iPhone Trader allows you to place position instantly—-anywhere, anytime.') }}
                                                 </p>
                                             </div>
                                             <div class="uk-text-center uk-grid-margin uk-first-column">
@@ -103,7 +103,7 @@
                                                     {{ __('quantum capital global android trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
-                                                    {{ __('Enjoy the full cTrader / match-trader experience on your Android phone or tablet with this native android application.') }}
+                                                    {{ __('Enjoy the full cTrader experience on your Android phone or tablet with this native android application.') }}
                                                 </p>
                                             </div>
                                         </div>

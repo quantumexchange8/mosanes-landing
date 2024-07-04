@@ -75,11 +75,13 @@
 </div>
 
 <section>
-    <div class="uk-container">
+    <div class="uk-container uk-margin-medium-top">
         <div class="uk-grid">
             <div class="uk-width-1-1">
 
-                <h2 class="uk-text-capitalize uk-text-center">{{ __('Why should you partner with us?') }}</h2>
+                <h2 class="uk-text-capitalize uk-text-center">
+                    {{ __('Why should you partner with us?') }}
+                </h2>
                 <div class="uk-child-width-2-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid" data-uk-grid="">
                     <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/( partnership ) GROW YOUR REVENUE STREAMS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">

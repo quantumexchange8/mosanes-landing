@@ -47,16 +47,18 @@
             <div class="uk-width-1-1">
                 <div class="uk-card uk-card-default uk-border-rounded uk-background-center uk-background-contain uk-background-image@m" style="background-image: url(img/blockit/in-team-background-1.png);" data-uk-parallax="bgy: -100">
                     <div class="uk-card-body">
-                        <div class="uk-grid uk-flex uk-flex-center uk-padding-small">
+                        <div class="uk-grid uk-flex uk-flex-center uk-margin-auto">
                             <div class="uk-width-3-4@m uk-text-center">
                                 <h2>{{ __('About Us') }}</h2>
                             </div>
-                            <p class="uk-padding-small">
-                                {{ __('Quantum Capital Global (QCG) is a global financial and foreign exchange brokerage group established in 2021 by a highly-specialised team with backgrounds in Finance, Crypto and Technology. Created to help clients pursue their financial goals, we proudly offer transparent access to the FOREX market, powerful trading platforms cTrader, Match-Trader, exceptional execution speed, and award-winning customer service. Quantum Capital Global (QCG) strives to provide transparent and fair access to global Forex markets.') }}
-                            </p>
-                            <p class="uk-padding-small">
-                                {{ __('Given our strong background, we have always been able to offer superior access to global FOREX markets, which is why professional and retail traders are able to notice the remarkable difference between Quantum Capital Global (QCG) and other brokers. The diverse range of professional backgrounds and specialized skills across our team has helped Quantum Capital Global (QCG) become the award-winning broker it is today. Since Quantum Capital Global (QCG) establishment in 2021, the company has continued to grow and expand its horizons with new global offices and a constantly expanding team. This growth is reflected in the consistent development of new and value adding offerings to our clients with unique products, services and business divisions emerging with each new year.') }}
-                            </p>
+                            <div class="uk-margin-top uk-padding-remove">
+                                <p class="uk-padding-remove uk-text-justify">
+                                    {{ __('Quantum Capital Global (QCG) is a global financial and foreign exchange brokerage group established in 2021 by a highly-specialised team with backgrounds in Finance, Crypto and Technology. Created to help clients pursue their financial goals, we proudly offer transparent access to the FOREX market, powerful trading platforms cTrader, exceptional execution speed, and award-winning customer service. Quantum Capital Global (QCG) strives to provide transparent and fair access to global Forex markets.') }}
+                                </p>
+                                <p class="uk-padding-remove uk-text-justify">
+                                    {{ __('Given our strong background, we have always been able to offer superior access to global FOREX markets, which is why professional and retail traders are able to notice the remarkable difference between Quantum Capital Global (QCG) and other brokers. The diverse range of professional backgrounds and specialized skills across our team has helped Quantum Capital Global (QCG) become the award-winning broker it is today. Since Quantum Capital Global (QCG) establishment in 2021, the company has continued to grow and expand its horizons with new global offices and a constantly expanding team. This growth is reflected in the consistent development of new and value adding offerings to our clients with unique products, services and business divisions emerging with each new year.') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,7 +73,7 @@
                     </div>
                     <div>
                         <h3>{{ __('Customer focus') }}</h3>
-                        <p class="uk-margin-remove-bottom">
+                        <p class="uk-margin-remove-bottom uk-text-justify">
                             {{ __('We put our clients\' needs first and provide them with personalized support and tailored solutions to help them succeed in the markets.') }}
                         </p>
                     </div>
@@ -84,7 +86,7 @@
                     </div>
                     <div>
                         <h3>{{ __('Integrity') }}</h3>
-                        <p class="uk-margin-remove-bottom">
+                        <p class="uk-margin-remove-bottom uk-text-justify">
                             {{ __('We uphold the highest ethical standards in all our interactions with clients, partners, and regulators.') }}
                         </p>
                     </div>
@@ -97,7 +99,7 @@
                     </div>
                     <div>
                         <h3>{{ __('Innovation') }}</h3>
-                        <p class="uk-margin-remove-bottom">
+                        <p class="uk-margin-remove-bottom uk-text-justify">
                             {{ __('We constantly seek new and innovative ways to improve our technology, services, and products to meet our clients\' evolving needs.') }}
                         </p>
                     </div>
@@ -110,7 +112,7 @@
                     </div>
                     <div>
                         <h3>{{ __('Transparency') }}</h3>
-                        <p class="uk-margin-remove-bottom">
+                        <p class="uk-margin-remove-bottom uk-text-justify">
                             {{ __('We believe in openness and honesty in our business practices and provide clients with complete and accurate information on all aspects of their trading experience.') }}
                         </p>
                     </div>
@@ -123,7 +125,7 @@
                     </div>
                     <div>
                         <h3>{{ __('Collaboration') }}</h3>
-                        <p class="uk-margin-remove-bottom">
+                        <p class="uk-margin-remove-bottom uk-text-justify">
                             {{ __('We work as a team, with a shared sense of purpose, to achieve our goals and deliver the best possible service to our clients.') }}
                         </p>
                     </div>

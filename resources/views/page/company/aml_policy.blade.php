@@ -86,14 +86,11 @@
 <section class="uk-margin-large-bottom">
     <div class="uk-container">
         <div id="uk-text-center">
-            <p class="uk-text-justify"> Quantum Capital Global (QCG) adheres to the principles of Anti-Money Laundering and actively
-                            prevents any actions that aim or facilitate the process of legalizing of illegally gained funds.
-                            AML policy means preventing the use of the company's services by criminals, with the aim of
-                            money laundering, terrorist financing or other criminal activity. <br>
-
-                To prevent money laundering, Quantum Capital Global (QCG) neither accepts nor pays cash under
-                            any circumstances. The company reserves the right to suspend any client's operation, which can
-                            be regarded as illegal or, may be related to money</p>
+            <p class="uk-text-justify">
+                {{ __('Quantum Capital Global (QCG) adheres to the principles of Anti-Money Laundering and actively prevents any actions that aim or facilitate the process of legalizing of illegally gained funds. AML policy means preventing the use of the company\'s services by criminals, with the aim of money laundering, terrorist financing or other criminal activity.') }}
+                <br>
+                {{ __('To prevent money laundering, Quantum Capital Global (QCG) neither accepts nor pays cash under any circumstances. The company reserves the right to suspend any client\'s operation, which can be regarded as illegal or, may be related to money.') }}
+            </p>
         </div>
     </div>
 </section>

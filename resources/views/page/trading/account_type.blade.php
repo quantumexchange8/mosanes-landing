@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-green">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-green uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('Standard Account') }}
                     </h4>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('ECN Account') }}
                     </h4>
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-purple">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-purple uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('Swap-Free Account') }}
                     </h4>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-navy">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-navy uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('Virtual Account') }}
                     </h4>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-grey">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-grey uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('Social Copy Trade Account') }}
                     </h4>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-orange">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-orange uk-text-center">
                     <h4 class="uk-margin-top">
                         {{ __('Promotion Account') }}
                     </h4>
