@@ -20,6 +20,12 @@
   src: local(""), url("../fonts/lato-v16-latin-700.woff2") format("woff2"), url("../fonts/lato-v16-latin-700.woff") format("woff");
   font-display: block;
 }
+
+@media (min-width: 1200px) {
+  .card-height {
+    height: 35rem;
+  }
+}
 /* ========================================================================
    Component: Base
  ========================================================================== */

@@ -161,34 +161,32 @@
                     <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-margin-medium-top" data-uk-grid>
                         <div>
                             <div class="in-pricing-1">
-                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                <div class="uk-card uk-card-default uk-box-shadow-medium card-height">
                                     <div class="uk-card-media-top">
                                         <img class="uk-width-1-1 uk-align-center" src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-content-1.jpg" width="460" height="368" alt="sample-image" data-uk-img>
-                                      <span></span>
+                                        <span></span>
                                     </div>
                                     <div class="uk-card-body">
                                         <div class="in-heading-extra in-card-decor-1">
-                                            <h2 class="uk-margin-remove-bottom">{{ __('Economic') }}</h2>
-                                            <p class="uk-text-lead">{{ __('Analysis') }}</p>
+                                            <h2 class="uk-margin-remove-bottom">{{ __('Vision') }}</h2>
                                         </div>
-                                        <p class="uk-margin-small-top">{{ __('Stay ahead of the markets with world-leading market analysis through daily webinars by industry experts.') }}</p>
+                                        <p class="uk-margin-small-top">{{ __('To become the leading Forex broker in the industry by providing reliable and innovative solutions to our clients, while fostering a culture of transparency, integrity, and exceptional customer service.') }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="in-pricing-1">
-                                <div class="uk-card uk-card-default uk-box-shadow-medium">
+                                <div class="uk-card uk-card-default uk-box-shadow-medium card-height">
                                     <div class="uk-card-media-top">
                                         <img class="uk-width-1-1 uk-align-center" src="{{ asset('img/in-lazy.gif') }}" data-src="img/in-profit-content-2.jpg" width="460" height="368" alt="sample-image" data-uk-img>
                                         <span></span>
                                     </div>
                                     <div class="uk-card-body">
                                         <div class="in-heading-extra in-card-decor-2">
-                                            <h2 class="uk-margin-remove-bottom">{{ __('Technical') }}</h2>
-                                            <p class="uk-text-lead">{{ __('Analysis') }}</p>
+                                            <h2 class="uk-margin-remove-bottom">{{ __('Mission') }}</h2>
                                         </div>
-                                        <p class="uk-margin-small-top">{{ __('Access the financial markets with an account catered to your needs and benefit from good conditions.') }}</p>
+                                        <p class="uk-margin-small-top">{{ __('Our mission is to empower traders worldwide to achieve their financial goals by providing them with access to the Forex market through state-of-the-art trading technology and unparalleled customer support. We strive to create a secure and transparent trading environment, where our clients can trade with confidence and peace of mind.') }}</p>
                                     </div>
                                 </div>
                             </div>
