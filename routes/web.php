@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -42,11 +43,11 @@ Route::get('/platform', function () {
  * ==============================
  */
 Route::prefix('/partnership')->group(function() {
-    Route::get('/introduction_broker', function () {
+    Route::get('/introduction-broker', function () {
         return view('page.partnership.introduction_broker')->with('title', 'Introduction Broker (IB)');
     })->name('partnership.introduction_broker');
 
-    Route::get('/regional_country', function () {
+    Route::get('/regional-country', function () {
         return view('page.partnership.regional_country')->with('title', 'Regional & Country Partner');
     })->name('partnership.regional_country');
 });
@@ -61,11 +62,14 @@ Route::prefix('/company')->group(function() {
         return view('page.company.about')->with('title', 'About Us');
     })->name('company.about');
     
-    Route::get('/contact', function () {
-        return view('page.company.contact')->with('title', 'Contact Us');
-    })->name('company.contact');
+    Route::get('/contact', [ContactController::class, 'showContact'])->name('company.contact');
+    Route::post('/contact', [ContactController::class, 'sendEmail'])->name('company.contact.send_email');
 
-    Route::get('/aml_policy', function () {
+    Route::get('/aml-policy', function () {
         return view('page.company.aml_policy')->with('title', 'AML Policy');
     })->name('company.aml_policy');
 });
+
+Route::get('/privacy-policy', function () {
+    return view('page.privacy_policy')->with('title', 'Privacy Policy');
+})->name('privacy_policy');

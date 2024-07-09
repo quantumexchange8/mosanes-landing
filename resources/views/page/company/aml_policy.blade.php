@@ -43,7 +43,8 @@
             </div>
             <div class="uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-medium uk-grid" data-uk-grid="">
                 <div class="uk-first-column">
-                    <article class="uk-article"> <img class="uk-margin-small-top uk-margin-remove-bottom" src="https://home.qcgbrokertw.com/images/( company- aml policy ) placement-01.png" alt="">
+                    <article class="uk-article">
+                        <img class="uk-margin-small-top uk-margin-remove-bottom" src="{{ asset('img/placement-01.png') }}" alt="">
                         <h5 class="uk-margin-small-top uk-flex uk-flex-center" style="font-size: 20px;">
                             <div class="uk-text-primary">
                                 {{ __('Placement') }}
@@ -55,7 +56,8 @@
                     </article>
                 </div>
                 <div>
-                    <article class="uk-article"> <img class="uk-margin-small-top uk-margin-remove-bottom" src="https://home.qcgbrokertw.com/images/( company- aml policy ) layering-01.png" alt="">
+                    <article class="uk-article">
+                        <img class="uk-margin-small-top uk-margin-remove-bottom" src="{{ asset('img/layering-01.png') }}" alt="">
                         <h5 class="uk-margin-small-top uk-flex uk-flex-center" style="font-size: 20px;">
                             <div class="uk-text-primary">
                                 {{ __('Layering') }}
@@ -67,7 +69,8 @@
                     </article>
                 </div>
                 <div class="">
-                    <article class="uk-article"> <img class="uk-margin-small-top uk-margin-remove-bottom" src="https://home.qcgbrokertw.com/images/( company- aml policy ) intergration-01.png" alt="">
+                    <article class="uk-article">
+                        <img class="uk-margin-small-top uk-margin-remove-bottom" src="{{ asset('img/intergration-01.png') }}" alt="">
                         <h5 class="uk-margin-small-top uk-flex uk-flex-center" style="font-size: 20px;">
                             <div class="uk-text-primary">
                                 {{ __('Integration') }}

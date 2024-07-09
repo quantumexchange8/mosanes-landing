@@ -15,7 +15,7 @@
                         <div class="uk-grid" data-uk-grid>
                             @include('page.home.slide_overlay_text1')
                             <div class="uk-position-center">
-                                <img src="{{ asset('img/in-lazy.svg') }}" data-src="{{ asset('img/man-checking-stock-market-data-tablet.png')    }}" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/man-checking-stock-market-data-tablet.png')    }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
                         </div>
                     </div>
@@ -373,9 +373,9 @@
                     </div>
                 </div>
                 <div class="uk-width-1-1 uk-margin-medium-top">
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5406e65db0d04a09e042d5fc" data-businessunit-id="561d886b0000ff0005844fd6" data-style-height="28px" data-style-width="100%" data-theme="light">
+                    {{-- <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5406e65db0d04a09e042d5fc" data-businessunit-id="561d886b0000ff0005844fd6" data-style-height="28px" data-style-width="100%" data-theme="light">
                         <a href="https://uk.trustpilot.com/review/pepperstone.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

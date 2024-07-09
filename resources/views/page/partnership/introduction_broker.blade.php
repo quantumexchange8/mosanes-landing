@@ -45,21 +45,39 @@
                     {{ __('What is Introducing Broker (IB)?') }}
                 </h2>
 
-                <div class="uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-1@s uk-margin-medium-top uk-text-center uk-grid" data-uk-grid="">
-                    <div class="uk-first-column"> <img class="uk-border-circle uk-margin-remove-bottom" src="{{ asset('img/( partnership ) Register-01.png') }}" alt="">
+                <div class="uk-margin-top uk-flex uk-flex-column uk-flex-row@m uk-flex-around">
+                    <div class="uk-first-column uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                        <div class="uk-padding uk-flex uk-flex-between uk-flex-middle uk-position-relative" style="gap:1rem;">
+                            <div class="in-icon-wrap circle primary-color" style="width:150px; height:150px;">
+                                <i class="fa-solid fa-pen fa-5x"></i>
+                            </div>
+                            <i class="fa-solid fa-arrow-right fa-xl uk-position-absolute uk-position-center-right"></i>
+                        </div>
                         <h4 class="uk-margin-small-top uk-margin-remove-bottom uk-text-primary">
                             {{ __('Sign up') }}
                         </h4>
                         <br>
                     </div>
-                    <div> <img class="uk-border-circle uk-margin-remove-bottom" src="{{ asset('img/( partnership ) - refer-01.png') }}" alt="">
+
+                    <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                        <div class="uk-padding uk-flex uk-flex-between uk-flex-middle uk-position-relative" style="gap:1rem;">
+                            <div class="in-icon-wrap circle primary-color" style="width:150px; height:150px;">
+                                <i class="fa-solid fa-people-group fa-5x"></i>
+                            </div>
+                            <i class="fa-solid fa-arrow-right fa-xl uk-position-absolute uk-position-center-right"></i>
+                        </div>
                         <h4 class="uk-margin-small-top uk-margin-remove-bottom uk-text-primary">
                             {{ __('Refer') }}
                         </h4>
                         <br>
-                        <br>
                     </div>
-                    <div> <img class="uk-border-circle uk-margin-remove-bottom" src="{{ asset('img/( partnership ) - get pay-01.png') }}" alt="">
+
+                    <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                        <div class="uk-padding uk-flex uk-flex-between uk-flex-middle uk-position-relative" style="gap:1rem;">
+                            <div class="in-icon-wrap circle primary-color" style="width:150px; height:150px;">
+                                <i class="fa-solid fa-sack-dollar fa-5x"></i>
+                            </div>
+                        </div>
                         <h4 class="uk-margin-small-top uk-margin-remove-bottom uk-text-primary">
                             {{ __('GetPaid') }}
                         </h4>
@@ -83,7 +101,7 @@
                     {{ __('Why should you partner with us?') }}
                 </h2>
                 <div class="uk-child-width-2-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid" data-uk-grid="">
-                    <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/( partnership ) GROW YOUR REVENUE STREAMS-01.png') }}" alt="">
+                    <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/GROW YOUR REVENUE STREAMS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                             {{ __('Grow your revenue streams') }}
                         </h5>
@@ -91,7 +109,7 @@
                             {{ __('We reward volume-based incentive and attractive commission to you. As long as your customers continue to trade, you will continue to receive commission.') }}
                         </p>
                     </div>
-                    <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/( partnership ) MULTI-CURRENCY DEPOSITS-01.png') }}" alt="">
+                    <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/MULTI-CURRENCY DEPOSITS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                             {{ __('Multi-Currency deposits.') }}
                         </h5>
@@ -99,7 +117,7 @@
                             {{ __('We accept all the major and local currency deposit providing conveniency for you and your clients anywhere around the world.') }}
                         </p>
                     </div>
-                    <div class="uk-text-center uk-grid-margin uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/( partnership ) MARKETING AND BUSINESS PLANS SUPPORT-01.png') }}" alt="">
+                    <div class="uk-text-center uk-grid-margin uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/MARKETING AND BUSINESS PLANS SUPPORT-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                             {{ __('Marketing and business plans support') }}
                         </h5>
@@ -107,7 +125,7 @@
                             {{ __('We provide perks such as sharing our marketing materials and dedicated on-the-fly support for your business growth.') }}
                         </p>
                     </div>
-                    <div class="uk-text-center uk-grid-margin"> <img class="uk-margin-bottom" src="{{ asset('img/( Partnership ) EXCLUSIVE PROMOTIONS & LUXURY GIFTS-01.png') }}" alt="">
+                    <div class="uk-text-center uk-grid-margin"> <img class="uk-margin-bottom" src="{{ asset('img/EXCLUSIVE PROMOTIONS & LUXURY GIFTS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                             {{ __('Exclusive Promotions & Luxury Gifts') }}
                         </h5>

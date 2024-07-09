@@ -21,6 +21,7 @@
     <link rel="preload" href="{{ asset('js/config-theme.js') }}" as="script">
     <!-- stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
     {{-- font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,6 +61,9 @@
     <script src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" defer></script>
     <script src="{{ asset('js/utilities.min.js') }}"></script>
     <script src="{{ asset('js/config-theme.js') }}"></script>
+    <script>
+        @yield('js')
+    </script>
 </body>
 
 </html>

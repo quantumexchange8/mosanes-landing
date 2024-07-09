@@ -35,7 +35,7 @@
                                 </h2> <br>
                                 <div class="uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-medium uk-grid" data-uk-grid="">
                                     <div class="uk-first-column">
-                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/( partnership - regional ) CUSTOMIZED SOLUTION-01.png') }}" alt="">
+                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/CUSTOMIZED SOLUTION-01.png') }}" alt="">
                                             <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
                                                 {{ __('Customized Solution') }}
                                             </h5>
@@ -45,7 +45,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/( partnership - regional ) Direct-transparent-01.png') }}" alt="">
+                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/Direct-transparent-01.png') }}" alt="">
                                             <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
                                                 {{ __('Direct & transparent revenue stream') }}
                                             </h5>
@@ -55,7 +55,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/( partnership - regional ) full support-01.png') }}" alt="">
+                                        <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/full support-01.png') }}" alt="">
                                             <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
                                                 {{ __('Full support') }}
                                             </h5>

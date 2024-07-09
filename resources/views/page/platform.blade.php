@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- breadcrumb content begin -->
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb">
+<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb" style="background-color: #f4f4f4;">
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
@@ -44,7 +44,7 @@
                                     <div class="uk-card uk-card-default uk-card-body" style="background-color: #fff">
                                         <h2 class="uk-text-center">{{ __('Advantage of cTrader.') }}</h2>
                                         <div class="uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid" data-uk-grid="">
-                                            <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/( cTrader ) Advanced Trading Platform.png') }}" alt="">
+                                            <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/Advanced Trading Platform.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                                                     {{ __('Advanced Trading Platform') }}
                                                 </h5>
@@ -52,7 +52,7 @@
                                                     {{ __('A powerful trading platform designed for more advanced traders in mind, focusing on order execution and charting capabilities.') }}
                                                 </p>
                                             </div>
-                                            <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/( cTrader ) Ultrafast Order Execution.png') }}" alt="">
+                                            <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/Ultrafast Order Execution.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                                                     {{ __('Ultrafast Order Execution') }}
                                                 </h5>
@@ -60,7 +60,7 @@
                                                     {{ __('Industry-leading execution time of 0.05 seconds on average') }}
                                                 </p>
                                             </div>
-                                            <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/( cTrader ) 800+ Instruments To Trade.png') }}" alt="">
+                                            <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/Instruments To Trade.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                                                     {{ __('800+ Instruments To Trade') }}
                                                 </h5>

@@ -45,7 +45,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <div class="uk-card uk-card-default uk-border-rounded uk-background-center uk-background-contain uk-background-image@m" style="background-image: url(img/blockit/in-team-background-1.png);" data-uk-parallax="bgy: -100">
+                <div class="uk-card uk-card-default uk-border-rounded uk-background-center uk-background-contain uk-background-image@m" data-uk-parallax="bgy: -100">
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex uk-flex-center uk-margin-auto">
                             <div class="uk-width-3-4@m uk-text-center">
@@ -67,8 +67,8 @@
             <div class="uk-grid uk-grid-large uk-child-width-1-3@m uk-margin-medium-top" data-uk-grid>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap circle primary-color">
-                            <img src="{{ asset('img/( company - about us ) Customer focus.png') }}" alt="">
+                        <div class="in-icon-wrap circle secondary-color">
+                            <img src="{{ asset('img/Customer focus.png') }}" alt="">
                         </div>
                     </div>
                     <div>
@@ -80,8 +80,8 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                        <div class="in-icon-wrap circle primary-color">
-                            <img src="{{ asset('img/( company - about us ) Integrity-01.png') }}" alt="">
+                        <div class="in-icon-wrap circle secondary-color">
+                            <img src="{{ asset('img/Integrity-01.png') }}" alt="">
                         </div>
                     </div>
                     <div>
@@ -93,8 +93,8 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                    <div class="in-icon-wrap circle primary-color">
-                        <img src="{{ asset('img/( company - about us ) inovation.png') }}" alt="">
+                    <div class="in-icon-wrap circle secondary-color">
+                        <img src="{{ asset('img/inovation.png') }}" alt="">
                     </div>
                     </div>
                     <div>
@@ -106,8 +106,8 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                    <div class="in-icon-wrap circle primary-color">
-                        <img src="{{ asset('img/( company - about us ) transparency.png') }}" alt="">
+                    <div class="in-icon-wrap circle secondary-color">
+                        <img src="{{ asset('img/transparency.png') }}" alt="">
                     </div>
                     </div>
                     <div>
@@ -119,8 +119,8 @@
                 </div>
                 <div class="uk-flex uk-flex-left">
                     <div class="uk-margin-right">
-                    <div class="in-icon-wrap circle primary-color">
-                        <img src="{{ asset('img/( company - about us ) colabration.png') }}" alt="">
+                    <div class="in-icon-wrap circle secondary-color">
+                        <img src="{{ asset('img/colabration.png') }}" alt="">
                     </div>
                     </div>
                     <div>
