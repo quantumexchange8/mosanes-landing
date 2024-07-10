@@ -97,13 +97,13 @@
     </div>
     <!-- slideshow content end -->
     <!-- section content begin -->
-    <div class="uk-section uk-section-muted in-padding-large-vertical@s in-profit-1">
+    <div class="uk-section in-padding-large-vertical@s in-profit-1" style="background-color: #EFF4FF;">
         <div class="uk-container">
             <div class="uk-grid-divider" data-uk-grid>
                 <div class="uk-width-expand@m in-margin-top-20@s">
-                    <h2>{{ __('Why Choose Quantum Capital Global?') }}</h2>
+                    <h2 style="font-size: 28px;">{{ __('Why Choose Mosanes Technologies?') }}</h2>
                     <p>
-                        {{ __('Quantum Capital Global is committed to delivering a transparent, secure, and reliable trading environment, where traders can access the world\'s financial markets with ease and confidence.') }}
+                        {{ __('Mosanes Technologies is committed to delivering a transparent, secure, and reliable trading environment, where traders can access the world\'s financial markets with ease and confidence.') }}
                     </p>
                 </div>
                 <div class="uk-width-2-3@m">
@@ -151,10 +151,10 @@
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
                 <div class="uk-text-center">
-                    <div class="primary-title">{{ __('The advantage of QCG') }}</div>
+                    <div class="primary-title">{{ __('The advantage of MT') }}</div>
                     <div class="primary-title">{{ __('is different from others') }}</div>
 
-                    <p class="uk-text-lead">{{ __('Elevate your finances with Quantum Capital Group in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
+                    <p class="uk-text-lead">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>
                 </div>
                 <div class="uk-width-5-6@m">
@@ -196,11 +196,11 @@
                                 <div class="uk-child-width-1-2@m" data-uk-grid>
                                     <div>
                                         <div class="uk-flex" data-uk-margin>
-                                            <a href="#" class="uk-button in-button-app uk-margin-small-right">
+                                            <a href="https://play.google.com/store/apps/details?id=com.spotware.ct&hl=en" class="uk-button in-button-app uk-margin-small-right">
                                                 <i class="fab fa-google-play fa-2x"></i>
                                                 <span class="wrapper">{{ __('Download from') }}<br><span>Play Store</span></span>
                                             </a>
-                                            <a href="#" class="uk-button in-button-app">
+                                            <a href="https://apps.apple.com/my/app/ctrader/id767428811?platform=iphone" class="uk-button in-button-app">
                                                 <i class="fab fa-apple fa-2x"></i>
                                                 <span class="wrapper">{{ __('Download from') }}<br><span>App Store</span></span>
                                             </a>
@@ -226,7 +226,7 @@
                                             </div>
                                             <div class="uk-width-expand">
                                                 <h1 class="uk-margin-remove-bottom">324,978,126</h1>
-                                                <p class="uk-text-uppercase uk-text-primary uk-text-small uk-margin-remove-top">{{ __('Trades Opened at QCG') }}</p>
+                                                <p class="uk-text-uppercase uk-text-primary uk-text-small uk-margin-remove-top">{{ __('Trades Opened at MT') }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -256,25 +256,25 @@
                             <h1 class="uk-heading-bullet">
                                 <span class="count" data-counter-end="250">0</span>M+
                             </h1>
-                            <p>Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
                         </div>
                         <div>
                             <h1 class="uk-heading-bullet">
                                 <span class="count" data-counter-end="90">0</span>%
                             </h1>
-                            <p>Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
                         </div>
                         <div>
                             <h1 class="uk-heading-bullet">
                                 <span class="count" data-counter-end="131">0</span>M+
                             </h1>
-                            <p>Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
                         </div>
                         <div>
                             <h1 class="uk-heading-bullet">
                                 <span class="count" data-counter-end="35">0</span>M+
                             </h1>
-                            <p>Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
@@ -359,23 +359,13 @@
                             <p class="uk-margin-remove-top">{{ __('Get started with your trading account today.') }}</p>
                         </div>
                         <div class="uk-width-expand@m">
-                            <div class="uk-grid-small">
-                                <div class="uk-width-1-1 uk-width-auto@m uk-flex" style="gap: 2rem">
-                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">
-                                        <a class="uk-text-decoration-none uk-text-center" style="color: white;" href="{{ route('trading.download') }}">{{ __('Download') }}</a>
-                                    </button>
-                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">
-                                        <a class="uk-text-decoration-none" style="color: white;" href="#">{{ __('Sign up') }}</a>
-                                    </button>
+                            <div class="uk-grid-small uk-grid uk-grid-stack">
+                                <div class="uk-width-1-1 uk-width-auto@m uk-first-column">
+                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">{{ __('Open Trading Account') }}</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="uk-width-1-1 uk-margin-medium-top">
-                    {{-- <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5406e65db0d04a09e042d5fc" data-businessunit-id="561d886b0000ff0005844fd6" data-style-height="28px" data-style-width="100%" data-theme="light">
-                        <a href="https://uk.trustpilot.com/review/pepperstone.com" target="_blank" rel="noopener noreferrer">Trustpilot</a>
-                    </div> --}}
                 </div>
             </div>
         </div>

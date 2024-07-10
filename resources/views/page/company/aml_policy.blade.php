@@ -23,7 +23,7 @@
         <div class="uk-container">
             <div class="uk-margin-medium-buttom">
             <p class="uk-text-middle uk-margin-small-bottom">
-                {{ __('Quantum Capital Global (QCG) is committed to the highest standards of the Anti-Money Laundering (AML) compliance and Counter-Terrorism Financing (CTF). To help the government fight the funding of terrorism and money laundering activities, law requires all financial institutions to obtain, verify, and record information that identifies each person opening an account.') }}
+                {{ __('Mosanes Technologies (MT) is committed to the highest standards of the Anti-Money Laundering (AML) compliance and Counter-Terrorism Financing (CTF). To help the government fight the funding of terrorism and money laundering activities, law requires all financial institutions to obtain, verify, and record information that identifies each person opening an account.') }}
             </p>
             <p class="uk-text-middle uk-margin-small-bottom">
                 {{ __('Money laundering - the process of converting funds, received from illegal activities (such as fraud, corruption, terrorism, etc.), into other funds or investments that look legitimate to hide or distort the real source of funds.') }}
@@ -90,9 +90,9 @@
     <div class="uk-container">
         <div id="uk-text-center">
             <p class="uk-text-justify">
-                {{ __('Quantum Capital Global (QCG) adheres to the principles of Anti-Money Laundering and actively prevents any actions that aim or facilitate the process of legalizing of illegally gained funds. AML policy means preventing the use of the company\'s services by criminals, with the aim of money laundering, terrorist financing or other criminal activity.') }}
+                {{ __('Mosanes Technologies (MT) adheres to the principles of Anti-Money Laundering and actively prevents any actions that aim or facilitate the process of legalizing of illegally gained funds. AML policy means preventing the use of the company\'s services by criminals, with the aim of money laundering, terrorist financing or other criminal activity.') }}
                 <br>
-                {{ __('To prevent money laundering, Quantum Capital Global (QCG) neither accepts nor pays cash under any circumstances. The company reserves the right to suspend any client\'s operation, which can be regarded as illegal or, may be related to money.') }}
+                {{ __('To prevent money laundering, Mosanes Technologies (MT) neither accepts nor pays cash under any circumstances. The company reserves the right to suspend any client\'s operation, which can be regarded as illegal or, may be related to money.') }}
             </p>
         </div>
     </div>

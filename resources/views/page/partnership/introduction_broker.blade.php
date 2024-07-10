@@ -26,7 +26,7 @@
             </h2>
         </div>
         <p class="uk-text-justify uk-margin-small-bottom">
-            {{ __('In Quantum Capital Global (QCG), we offer of partnership for introducing brokers and professional fund managers and who are looking for opportunities to increase revenue and growing their business to another level. Our partnership team will work in-sync with your business to deliver the exceptional service your clients deserve.') }}
+            {{ __('In Mosanes Technologies (MT), we offer of partnership for introducing brokers and professional fund managers and who are looking for opportunities to increase revenue and growing their business to another level. Our partnership team will work in-sync with your business to deliver the exceptional service your clients deserve.') }}
             <br>
             {{ __('In addition to delivering the result, you can count on us providing unrivalled support for you and your clients.') }}
         </p>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <p class="uk-margin-remove-top uk-text-justify">
-                    {{ __('Our Introducing Broker (IB) partnership program rewards introducer for referring customers to us and continue to receive commission every time they trade, there are no limits on the number of referred customers or trading volumes. A low barrier to entry combined with attractive volume-based incentive structure makes Quantum Capital Global (QCG) ideal for introducers of all sizes.') }}
+                    {{ __('Our Introducing Broker (IB) partnership program rewards introducer for referring customers to us and continue to receive commission every time they trade, there are no limits on the number of referred customers or trading volumes. A low barrier to entry combined with attractive volume-based incentive structure makes Mosanes Technologies (MT) ideal for introducers of all sizes.') }}
                 </p>
             </div>
         </div>
@@ -136,7 +136,7 @@
                             {{ __('Exclusive Promotions & Luxury Gifts') }}
                         </h5>
                         <p class="uk-margin-remove-top">
-                            {{ __('Quantum Capital Global (QCG) extends promotion and various attractive gifts to trader. Event such as trading competitions are frequently held, the more you trade, the more rewards are given!') }}
+                            {{ __('Mosanes Technologies (MT) extends promotion and various attractive gifts to trader. Event such as trading competitions are frequently held, the more you trade, the more rewards are given!') }}
                         </p>
                     </div>
                     <div class="uk-text-center uk-margin-medium-top uk-margin-bottom uk-align-center uk-grid-margin uk-first-column">

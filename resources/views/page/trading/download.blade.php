@@ -43,7 +43,7 @@
                             {{ __('WEB') }}
                         </span>
                         <span class="uk-flex uk-flex-column uk-flex-middle">
-                            <a href=""><img src="{{ asset('img/android.png') }}" width="45"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.spotware.ct&hl=en"><img src="{{ asset('img/android.png') }}" width="45"></a>
                             {{ __('ANDROID') }}
                         </span>
                     </div>
@@ -73,7 +73,7 @@
                                             <div class="uk-text-center uk-first-column">
                                                 <img class="uk-margin-bottom" src="{{ asset('img/laptop , phone & tablet ( download page )-03.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
-                                                    {{ __('quantum capital global windows trader') }}
+                                                    {{ __('Mosanes Technologies windows trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
                                                     {{ __('Trade from your desktop with cTrader, the fastest platform now on the market.') }}
@@ -82,7 +82,7 @@
                                             <div class="uk-text-center">
                                                 <img class="uk-margin-bottom" src="{{ asset('img/laptop , phone & tablet ( download page )-04.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
-                                                    {{ __('quantum capital global iphone trader') }}
+                                                    {{ __('Mosanes Technologies iphone trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
                                                     {{ __('Our advanced cTrader iPhone Trader allows you to place position instantly—-anywhere, anytime.') }}
@@ -91,7 +91,7 @@
                                             <div class="uk-text-center uk-grid-margin uk-first-column">
                                                 <img class="uk-margin-bottom" src="{{ asset('img/laptop , phone & tablet ( download page )-05.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
-                                                    {{ __('quantum capital global tablet trader') }}
+                                                    {{ __('Mosanes Technologies tablet trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
                                                     {{ __('This tablet native application offers an ideal trading solution with full functionality for traders on the go.') }}
@@ -100,7 +100,7 @@
                                             <div class="uk-text-center uk-grid-margin">
                                                 <img class="uk-margin-bottom" src="{{ asset('img/laptop , phone & tablet ( download page )-06.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-text-primary uk-margin-remove-top uk-margin-small-bottom">
-                                                    {{ __('quantum capital global android trader') }}
+                                                    {{ __('Mosanes Technologies android trader') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
                                                     {{ __('Enjoy the full cTrader experience on your Android phone or tablet with this native android application.') }}

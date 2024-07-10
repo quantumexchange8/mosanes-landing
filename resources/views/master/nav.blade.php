@@ -1,80 +1,41 @@
 <header>
-    <div class="uk-section uk-padding-small in-profit-ticker">
-        <div class="uk-container">
-            <div class="uk-grid">
-                <div class="uk-width-1-1">
-                    <div data-uk-slider="autoplay: true; autoplay-interval: 5000">
-                        <ul class="uk-grid-large uk-slider-items uk-child-width-1-3@s uk-child-width-1-6@m uk-text-center" data-uk-grid>
-                            <li>
-                                <div class="in-icon-wrap small circle up">
-                                    <i class="fas fa-angle-up"></i>
-                                </div>
-                                <div>
-                                    XAUUSD <span class="uk-text-success">1478.81</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle down">
-                                    <i class="fas fa-angle-down"></i>
-                                </div>
-                                <div>
-                                    GBPUSD <span class="uk-text-danger">1.3191</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle down">
-                                    <i class="fas fa-angle-down"></i>
-                                </div>
-                                <div>
-                                    EURUSD <span class="uk-text-danger">1.1159</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle up">
-                                    <i class="fas fa-angle-up"></i>
-                                </div>
-                                <div>
-                                    USDJPY <span class="uk-text-success">109.59</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle up">
-                                    <i class="fas fa-angle-up"></i>
-                                </div>
-                                <div>
-                                    USDCAD <span class="uk-text-success">1.3172</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle up">
-                                    <i class="fas fa-angle-up"></i>
-                                </div>
-                                <div>
-                                    USDCHF <span class="uk-text-success">0.9776</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle down">
-                                    <i class="fas fa-angle-down"></i>
-                                </div>
-                                <div>
-                                    AUDUSD <span class="uk-text-danger">0.67064</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="in-icon-wrap small circle up">
-                                    <i class="fas fa-angle-up"></i>
-                                </div>
-                                <div>
-                                    GBPJPY <span class="uk-text-success">141.91</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        {{-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div> --}}
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+        "symbols": [
+        {
+            "proName": "FOREXCOM:SPXUSD",
+            "title": "S&P 500 Index"
+        },
+        {
+            "proName": "FOREXCOM:NSXUSD",
+            "title": "US 100 Cash CFD"
+        },
+        {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR to USD"
+        },
+        {
+            "proName": "BITSTAMP:BTCUSD",
+            "title": "Bitcoin"
+        },
+        {
+            "proName": "BITSTAMP:ETHUSD",
+            "title": "Ethereum"
+        }
+        ],
+        "showSymbolLogo": true,
+        "isTransparent": false,
+        "displayMode": "adaptive",
+        "colorTheme": "light",
+        "locale": "en"
+    }
+        </script>
     </div>
+    <!-- TradingView Widget END -->
     <div class="uk-flex uk-flex-right uk-container">
         @include('master.language_switcher')
     </div>
@@ -83,7 +44,7 @@
             <div class="uk-container" data-uk-navbar>
                 <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between">
                     <a class="uk-navbar-item uk-logo" href="{{ route('index') }}">
-                        <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/Logo.svg') }}" alt="logo" width="28" height="28" data-uk-img>
+                        <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/Logo.svg') }}" alt="logo" width="32" height="32" data-uk-img>
                         <span class="logo-text">{{ __('Mosanes.') }}</span>
                     </a>
                     <ul class="uk-navbar-nav uk-visible@m">

@@ -24,16 +24,16 @@
         <div class="uk-container">
             <div class="uk-grid">
                 <div class="uk-width-1-1 uk-flex uk-flex-center">
-                    <div class="uk-width-3-5@m uk-text-center">
+                    <div class="uk-text-center">
                         <h1 class="uk-margin-small-bottom">
-                            {{ __('Quantum Capital Global is a') }}
+                            {{ __('Mosanes Technologies is a') }}
                             <br>
-                            <span class="in-highlight">
+                            <span class="in-highlight@m">
                                 {{ __('regulated Forex CFD Provider.') }}
                             </span>
                         </h1>
                         <p class="uk-text-lead uk-text-muted uk-margin-remove-top">
-                            {{ __('Quantum Capital Global fills to the gap between retail and institutional traders, making the world more tradable for everyone.') }}
+                            {{ __('Mosanes Technologies fills to the gap between retail and institutional traders, making the world more tradable for everyone.') }}
                         </p>
                     </div>
                 </div>
@@ -53,10 +53,10 @@
                             </div>
                             <div class="uk-margin-top uk-padding-remove">
                                 <p class="uk-padding-remove uk-text-justify">
-                                    {{ __('Quantum Capital Global (QCG) is a global financial and foreign exchange brokerage group established in 2021 by a highly-specialised team with backgrounds in Finance, Crypto and Technology. Created to help clients pursue their financial goals, we proudly offer transparent access to the FOREX market, powerful trading platforms cTrader, exceptional execution speed, and award-winning customer service. Quantum Capital Global (QCG) strives to provide transparent and fair access to global Forex markets.') }}
+                                    {{ __('Mosanes Technologies (MT) is a global financial and foreign exchange brokerage group established in 2021 by a highly-specialised team with backgrounds in Finance, Crypto and Technology. Created to help clients pursue their financial goals, we proudly offer transparent access to the FOREX market, powerful trading platforms cTrader, exceptional execution speed, and award-winning customer service. Mosanes Technologies (MT) strives to provide transparent and fair access to global Forex markets.') }}
                                 </p>
                                 <p class="uk-padding-remove uk-text-justify">
-                                    {{ __('Given our strong background, we have always been able to offer superior access to global FOREX markets, which is why professional and retail traders are able to notice the remarkable difference between Quantum Capital Global (QCG) and other brokers. The diverse range of professional backgrounds and specialized skills across our team has helped Quantum Capital Global (QCG) become the award-winning broker it is today. Since Quantum Capital Global (QCG) establishment in 2021, the company has continued to grow and expand its horizons with new global offices and a constantly expanding team. This growth is reflected in the consistent development of new and value adding offerings to our clients with unique products, services and business divisions emerging with each new year.') }}
+                                    {{ __('Given our strong background, we have always been able to offer superior access to global FOREX markets, which is why professional and retail traders are able to notice the remarkable difference between Mosanes Technologies (MT) and other brokers. The diverse range of professional backgrounds and specialized skills across our team has helped Mosanes Technologies (MT) become the award-winning broker it is today. Since Mosanes Technologies (MT) establishment in 2021, the company has continued to grow and expand its horizons with new global offices and a constantly expanding team. This growth is reflected in the consistent development of new and value adding offerings to our clients with unique products, services and business divisions emerging with each new year.') }}
                                 </p>
                             </div>
                         </div>
@@ -139,8 +139,8 @@
         <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
             <div class="uk-grid">
                 <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-flex uk-flex-center">
-                    <img style="width: 50%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="https://home.qcgbrokertw.com/images/qcgcertedit.jpeg" alt="">
-                    <img style="width: 50%; height:90%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="https://home.qcgbrokertw.com/images/qcgcert2edit.jpg" alt="">
+                    <img style="width: 50%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-1.png') }}" alt="">
+                    <img style="width: 50%; height:90%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-2.png') }}" alt="">
                 </div>
                 <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-text-justify">
                     <h3 class="uk-margin-remove-bottom uk-text-primary">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                     <a class="uk-button uk-button-default uk-width-1-1 uk-margin-top uk-margin-bottom uk-border-rounded" href="{{ route('company.contact') }}">
-                        {{ __('Start Trading Today') }}
+                        {{ __('Sign up now') }}
                     </a>
                 </div>
             </div>

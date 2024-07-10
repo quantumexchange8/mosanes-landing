@@ -22,7 +22,7 @@
     <div class="uk-container">
         <div></div>
         <p class="uk-text-justify uk-margin-small-bottom">
-            {{ __('Partnership with us and leverage off Quantum Capital Global (QCG) brand and products with your local knowledge and connections to start regional &amp; country offices in high growth areas. If you have significant experience of retail forex in any country or region, this is an opportunity to work under our brand, become a partner in the ready business, improve it and let it grow. We can provide the resources you need to take your forex business to the next level.') }}
+            {{ __('Partnership with us and leverage off Mosanes Technologies (MT) brand and products with your local knowledge and connections to start regional &amp; country offices in high growth areas. If you have significant experience of retail forex in any country or region, this is an opportunity to work under our brand, become a partner in the ready business, improve it and let it grow. We can provide the resources you need to take your forex business to the next level.') }}
         </p>
         <div class="uk-grid uk-margin-medium-top ">
             <section class="uk-margin-medium-bottom">

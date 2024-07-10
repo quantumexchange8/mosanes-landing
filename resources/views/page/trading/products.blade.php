@@ -28,16 +28,16 @@
                 </div>
             </div>
             <div>
-                <img src="{{ asset('img/Forex.jpeg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/Forex.jpeg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Forex Pairs') }}
                 </h4>
                 <p class="uk-margin-remove-top">
-                    {{ __('Access 40+ Forex Pairs - Quantum Capital Global (QCG) provides Forex traders access to the most liquid global FX markets. A forex pair, also known as a currency pair, is the quotation of two different currencies traded in the foreign exchange market. In forex trading, currencies are always traded in pairs, with one currency being bought and the other being sold. The two currencies in the pair are referred to as the base currency and the quote currency.') }}
+                    {{ __('Access 40+ Forex Pairs - Mosanes Technologies (MT) provides Forex traders access to the most liquid global FX markets. A forex pair, also known as a currency pair, is the quotation of two different currencies traded in the foreign exchange market. In forex trading, currencies are always traded in pairs, with one currency being bought and the other being sold. The two currencies in the pair are referred to as the base currency and the quote currency.') }}
                 </p>
             </div>
             <div>
-                <img src="{{ asset('img/GOld.jpg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/GOld.jpg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Precious Metals') }}
                 </h4>
@@ -46,16 +46,16 @@
                 </p>
             </div>
             <div>
-                <img src="{{ asset('img/Indice-scaledd.jpg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/Indice-scaledd.jpg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Indices') }}
                 </h4>
                 <p class="uk-margin-remove-top">
-                    {{ __('Trade market indices as CFDs with Quantum Capital Global (QCG) and enjoy the flexibility of long trading hours to suit your investment and trading needs. Mini indices are available for more affordable orders. There are various ways to trade indices, including through futures contracts, exchange-traded funds (ETFs), or contracts for difference (CFDs). Futures contracts are agreements to buy or sell an index at a specific price and date in the future, while ETFs allow investors to invest in a basket of stocks or other assets that make up an index. CFDs are contracts between traders and brokers, where traders can speculate on the price movements of an index without actually owning the underlying asset.') }}
+                    {{ __('Trade market indices as CFDs with Mosanes Technologies (MT) and enjoy the flexibility of long trading hours to suit your investment and trading needs. Mini indices are available for more affordable orders. There are various ways to trade indices, including through futures contracts, exchange-traded funds (ETFs), or contracts for difference (CFDs). Futures contracts are agreements to buy or sell an index at a specific price and date in the future, while ETFs allow investors to invest in a basket of stocks or other assets that make up an index. CFDs are contracts between traders and brokers, where traders can speculate on the price movements of an index without actually owning the underlying asset.') }}
                 </p>
             </div>
             <div>
-                <img src="{{ asset('img/Share-scaled.jpg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/Share-scaled.jpg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Share') }}
                 </h4>
@@ -64,7 +64,7 @@
                 </p>
             </div>
             <div>
-                <img src="{{ asset('img/Crypto-scaledd.jpg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/bitcoin.jpg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Cryptocurrencies') }}
                 </h4>
@@ -73,12 +73,12 @@
                 </p>
             </div>
             <div>
-                <img src="{{ asset('img/Oil.jpeg') }}" alt="">
+                <img class="rounded" src="{{ asset('img/crude-oil.jpg') }}" alt="">
                 <h4 class="uk-margin-top">
                     {{ __('Oil and Energy') }}
                 </h4>
                 <p class="uk-margin-remove-top">
-                    {{ __('Quantum Capital Global (QCG) offers a range of Energy instruments to its clients all around the world, allowing our traders to trade Crude oil, UK oil, US oil and Natural gas. Exchange-traded funds (ETFs), or contracts for difference (CFDs). Futures contracts are agreements to buy or sell a specified quantity of oil or energy at a specific price and date in the future. ETFs allow investors to invest in a basket of energy stocks or other assets that make up an index, while CFDs allow traders to speculate on the price movements of oil and energy without owning the underlying asset.') }}
+                    {{ __('Mosanes Technologies (MT) offers a range of Energy instruments to its clients all around the world, allowing our traders to trade Crude oil, UK oil, US oil and Natural gas. Exchange-traded funds (ETFs), or contracts for difference (CFDs). Futures contracts are agreements to buy or sell a specified quantity of oil or energy at a specific price and date in the future. ETFs allow investors to invest in a basket of energy stocks or other assets that make up an index, while CFDs allow traders to speculate on the price movements of oil and energy without owning the underlying asset.') }}
                 </p>
             </div>
         </div>

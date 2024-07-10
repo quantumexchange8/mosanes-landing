@@ -22,7 +22,7 @@
 <!-- section content begin -->
 <div class="uk-section">
     <div class="uk-container">
-        <div class="uk-grid-match uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m in-card-10" data-uk-grid>
+        <div class="uk-grid-match uk-grid-medium uk-child-width-1-2@s in-card-10" data-uk-grid>
             <div class="uk-width-1-1 uk-flex uk-flex-center uk-first-column">
                 <div class="uk-width-3-5@m uk-text-center">
                     <h1 class="uk-margin-remove">{{ __('A') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('relationship') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('on your terms.') }}
@@ -32,74 +32,29 @@
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-green uk-text-center">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-green uk-text-center" style="color: white;">
                     <h4 class="uk-margin-top">
                         {{ __('Standard Account') }}
                     </h4>
                     <hr>
                     <p>{{ __('From 1.6 Pips') }}</p>
                     <p>{{ __('Leverage from 1:30 to 1:500') }}</p>
-                    <p>{{ __('With Rebate') }}</p>
+                    <p>{{ __('With swap') }}</p>
+                    <p>{{ __('More than 200+ trading instruments') }}</p>
                 </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue uk-text-center">
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-purple uk-text-center" style="color: white;">
                     <h4 class="uk-margin-top">
-                        {{ __('ECN Account') }}
-                    </h4>
-                    <hr>
-                    <p>{{ __('0 Pips') }}</p>
-                    <p>{{ __('Leverage from 1:30 to 1:500') }}</p>
-                    <p>{{ __('With Commission Charges') }}</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-purple uk-text-center">
-                    <h4 class="uk-margin-top">
-                        {{ __('Swap-Free Account') }}
+                        {{ __('Premium Account') }}
                     </h4>
                     <hr>
                     <p>{{ __('From 1.6 Pips') }}</p>
                     <p>{{ __('Leverage from 1:30 to 1:500') }}</p>
-                    <p>{{ __('With Rebate') }}</p>
-                    <p>{{ __('No Overnight') }}</p>
+                    <p>{{ __('Without self-trade') }}</p>
+                    <p>{{ __('Swap-free') }}</p>
+                    <p>{{ __('More than 200+ trading instruments') }}</p>
                 </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-navy uk-text-center">
-                    <h4 class="uk-margin-top">
-                        {{ __('Virtual Account') }}
-                    </h4>
-                    <hr>
-                    <p>{{ __('No Spread') }}</p>
-                    <p>{{ __('Leverage Free') }}</p>
-                    <p>{{ __('Muslim available') }}</p>
-                    <p>{{ __('With Rebate') }}</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-grey uk-text-center">
-                    <h4 class="uk-margin-top">
-                        {{ __('Social Copy Trade Account') }}
-                    </h4>
-                    <hr>
-                    <p>{{ __('Copy others trade') }}</p>
-                    <p>{{ __('No knowledge required') }}</p>
-                    <p>{{ __('Choose your favourite trader to copy in the platform') }}</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-orange uk-text-center">
-                    <h4 class="uk-margin-top">
-                        {{ __('Promotion Account') }}
-                    </h4>
-                    <hr>
-                    <p>{{ __('From 1.6 Pips') }}</p>
-                    <p>{{ __('Leverage from 1:30 to 1:500') }}</p>
-                    <p>{{ __('With Rebate') }}</p>
-                    <p>{{ __('With Extra Credit') }}</p>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -115,7 +70,7 @@
                             <h3>{{ __('Create and choose the most suitable Account Type Today!') }}</h3>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{ route('trading.download') }}">{{ __('Download') }}</a>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="">{{ __('Sign up now') }}</a>
                         </div>
                     </div>
                 </div>

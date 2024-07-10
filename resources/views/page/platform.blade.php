@@ -27,6 +27,22 @@
             <p class="uk-text-justify uk-margin-small-bottom">
                 {{ __('cTrader is one of the most well-known trading platforms in the world of financial trading. It was developed in 2010 by Andrey Pavlov and Ilya Holeu, founders of Spotware. It\'s a multi-asset CFD and Forex trading platform which provides fast entry and execution, advanced charting tools, order types, level II pricing and more.') }}
             </p>
+
+            <div class="uk-margin-auto uk-margin-bottom uk-flex uk-flex-row" style="justify-content:space-evenly; padding-top:1rem;">
+                <span class="uk-flex uk-flex-column uk-flex-middle">
+                    <a href="#"><img src="{{ asset('img/windows.png') }}" width="45"></a>
+                    <span>{{ __('DESKTOP') }}</span>
+                </span>
+                <span class="uk-flex uk-flex-column uk-flex-middle">
+                    <a href=""><img src="{{ asset('img/web.png') }}" width="45"></a>
+                    {{ __('WEB') }}
+                </span>
+                <span class="uk-flex uk-flex-column uk-flex-middle">
+                    <a href="https://play.google.com/store/apps/details?id=com.spotware.ct&hl=en"><img src="{{ asset('img/android.png') }}" width="45"></a>
+                    {{ __('ANDROID') }}
+                </span>
+            </div>
+
             <div class="uk-grid uk-margin-medium-top ">
                 <div class="uk-width-7-7@l uk-width-7-7@l uk-width-7-7@s ">
                     <div class="uk-margin-large-buttom">

@@ -26,6 +26,14 @@
     height: 35rem;
   }
 }
+
+.flex-gap-1 {
+  gap: 4px;
+}
+
+.rounded {
+  border-radius: 10px;
+}
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -1612,10 +1620,10 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 14px;
-  background: #f7f6fc;
+  background: #EFF4FF;
   color: #717070;
   font-size: 0.941rem;
-  border: 1px solid #d0d0d0;
+  border: 1px solid #B2CCFF;
   transition: 0.2s ease-in-out;
   transition-property: color, background-color, border;
 }
@@ -2552,7 +2560,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #463A5C;
+  background: #D1E0FF;
 }
 
 /* Overlap modifier
@@ -2943,9 +2951,10 @@ select.uk-form-width-xsmall {
  * Note: Header and Footer are only implemented for the default style
  */
 .uk-card-default {
-  background-color: #f2f3f5;
+  background-color: #F5F8FF;
   color: #666;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #84ADFF;
+  border-radius: 10px;
 }
 
 .uk-card-default .uk-card-title {
@@ -9082,7 +9091,7 @@ iframe[data-uk-cover] {
 .logo-text {
   color: #182230;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
@@ -10397,7 +10406,7 @@ iframe[data-uk-cover] {
  * `uk-dark` is or dark colors on light backgrounds
  */
 .uk-light, .uk-section-primary:not(.uk-preserve-color), .uk-section-secondary:not(.uk-preserve-color), .uk-tile-primary:not(.uk-preserve-color), .uk-tile-secondary:not(.uk-preserve-color), .uk-card-primary.uk-card-body, .uk-card-primary > :not([class*=uk-card-media]), .uk-card-secondary.uk-card-body, .uk-card-secondary > :not([class*=uk-card-media]), .uk-overlay-primary, .uk-offcanvas-bar {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0, 0.9);
 }
 .uk-light a, .uk-section-primary:not(.uk-preserve-color) a, .uk-section-secondary:not(.uk-preserve-color) a, .uk-tile-primary:not(.uk-preserve-color) a, .uk-tile-secondary:not(.uk-preserve-color) a, .uk-card-primary.uk-card-body a, .uk-card-primary > :not([class*=uk-card-media]) a, .uk-card-secondary.uk-card-body a, .uk-card-secondary > :not([class*=uk-card-media]) a, .uk-overlay-primary a, .uk-offcanvas-bar a,
 .uk-light .uk-link,
@@ -10647,7 +10656,7 @@ iframe[data-uk-cover] {
 .uk-card-secondary > :not([class*=uk-card-media]) .uk-link-toggle:hover .uk-link-text,
 .uk-overlay-primary .uk-link-toggle:hover .uk-link-text,
 .uk-offcanvas-bar .uk-link-toggle:hover .uk-link-text {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.3);
 }
 .uk-light a.uk-link-heading:hover, .uk-section-primary:not(.uk-preserve-color) a.uk-link-heading:hover, .uk-section-secondary:not(.uk-preserve-color) a.uk-link-heading:hover, .uk-tile-primary:not(.uk-preserve-color) a.uk-link-heading:hover, .uk-tile-secondary:not(.uk-preserve-color) a.uk-link-heading:hover, .uk-card-primary.uk-card-body a.uk-link-heading:hover, .uk-card-primary > :not([class*=uk-card-media]) a.uk-link-heading:hover, .uk-card-secondary.uk-card-body a.uk-link-heading:hover, .uk-card-secondary > :not([class*=uk-card-media]) a.uk-link-heading:hover, .uk-overlay-primary a.uk-link-heading:hover, .uk-offcanvas-bar a.uk-link-heading:hover,
 .uk-light .uk-link-heading a:hover,
@@ -10678,7 +10687,7 @@ iframe[data-uk-cover] {
   border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 .uk-light .uk-heading-bullet::before, .uk-section-primary:not(.uk-preserve-color) .uk-heading-bullet::before, .uk-section-secondary:not(.uk-preserve-color) .uk-heading-bullet::before, .uk-tile-primary:not(.uk-preserve-color) .uk-heading-bullet::before, .uk-tile-secondary:not(.uk-preserve-color) .uk-heading-bullet::before, .uk-card-primary.uk-card-body .uk-heading-bullet::before, .uk-card-primary > :not([class*=uk-card-media]) .uk-heading-bullet::before, .uk-card-secondary.uk-card-body .uk-heading-bullet::before, .uk-card-secondary > :not([class*=uk-card-media]) .uk-heading-bullet::before, .uk-overlay-primary .uk-heading-bullet::before, .uk-offcanvas-bar .uk-heading-bullet::before {
-  border-left-color: rgba(255, 255, 255, 0.2);
+  border-left-color: rgba(0, 0, 0, 0.2);
 }
 .uk-light .uk-heading-line > ::before, .uk-section-primary:not(.uk-preserve-color) .uk-heading-line > ::before, .uk-section-secondary:not(.uk-preserve-color) .uk-heading-line > ::before, .uk-tile-primary:not(.uk-preserve-color) .uk-heading-line > ::before, .uk-tile-secondary:not(.uk-preserve-color) .uk-heading-line > ::before, .uk-card-primary.uk-card-body .uk-heading-line > ::before, .uk-card-primary > :not([class*=uk-card-media]) .uk-heading-line > ::before, .uk-card-secondary.uk-card-body .uk-heading-line > ::before, .uk-card-secondary > :not([class*=uk-card-media]) .uk-heading-line > ::before, .uk-overlay-primary .uk-heading-line > ::before, .uk-offcanvas-bar .uk-heading-line > ::before,
 .uk-light .uk-heading-line > ::after,
@@ -23200,6 +23209,26 @@ readers do not read off random characters that represent icons */
   z-index: -1;
 }
 
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .in-highlight\@m {
+    position: relative;
+    background: 0 0;
+    z-index: 0;
+  }
+
+  .in-highlight\@m::before {
+    content: "";
+    background: #D1E0FF;
+    position: absolute;
+    left: 0;
+    right: -2px;
+    bottom: 2px;
+    height: 16px;
+    z-index: -1;
+  }
+}
+
 .in-list-check > li {
   position: relative;
   padding-left: 30px;
@@ -23660,7 +23689,7 @@ header .uk-navbar-dropdown li {
   top: -65px;
 }
 .in-slideshow .in-slideshow-feature .in-icon-wrap {
-  background-color: #6b617c;
+  background-color: #155EEF;
   color: #fff;
 }
 
@@ -23697,14 +23726,14 @@ header .uk-navbar-dropdown li {
 }
 
 footer p, footer .uk-section-secondary:not(.uk-preserve-color) a {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(0, 0, 0, 0.7);
 }
 footer .uk-list li i {
   color: #fff;
 }
 footer .footer-warning {
   padding: 0 28px 6px 28px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 12px;
 }
 footer .footer-warning h5 {
@@ -23712,7 +23741,7 @@ footer .footer-warning h5 {
   margin-left: -8px;
 }
 footer .footer-warning h5 span {
-  background-color: #463A5C;
+  background-color: #D1E0FF;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -23742,10 +23771,10 @@ footer .social-media-list div a .fab:hover {
 }
 .in-profit-2 .in-pricing-1 .uk-card {
   border-radius: 12px;
-  border: 2px solid #d5cee0;
+  border: 2px solid #84ADFF;
 }
 .in-profit-2 .in-pricing-1 .uk-card:hover {
-  border-color: #b9afcd;
+  border-color: #EFF4FF;
 }
 .in-profit-2 .in-pricing-1 .uk-card-default {
   background: linear-gradient(0deg, rgb(247, 247, 250) 0%, rgb(247, 247, 250) 45%, rgb(255, 255, 255) 75%, rgb(255, 255, 255) 100%);
@@ -23800,8 +23829,8 @@ footer .social-media-list div a .fab:hover {
   margin-top: -5px;
 }
 .in-profit-2 .in-profit-appcard {
-  background-color: #f7f6fc;
-  border: 2px solid #d5cee0;
+  background-color: #EFF4FF;
+  border: 2px solid #84ADFF;
   border-radius: 12px;
 }
 .in-profit-2 .in-profit-appcard.uk-card-body .uk-child-width-1-2\@m div:nth-child(2) {
@@ -23902,7 +23931,7 @@ footer .social-media-list div a .fab:hover {
 
 .in-profit-5 .in-pricing-1 .uk-card {
   border-radius: 12px;
-  border: 2px solid #d5cee0;
+  border: 2px solid #84ADFF;
 }
 .in-profit-5 .in-pricing-1 .uk-card-header h3 {
   margin-top: 15px;
@@ -24078,10 +24107,10 @@ footer .social-media-list div a .fab:hover {
 }
 .in-profit-13 .in-pricing-1 .uk-card {
   border-radius: 12px;
-  border: 2px solid #d5cee0;
+  border: 2px solid #84ADFF;
 }
 .in-profit-13 .in-pricing-1 .uk-card:hover {
-  border-color: #b9afcd;
+  border-color: #EFF4FF;
 }
 .in-profit-13 .in-pricing-1 .uk-card-default {
   background: url("../img/in-profit-decor-3.svg") no-repeat;
