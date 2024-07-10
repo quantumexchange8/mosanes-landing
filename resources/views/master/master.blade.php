@@ -5,9 +5,9 @@
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Premium HTML5 Template by Indonez">
-    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
-    <meta name="author" content="Indonez">
+    <meta name="description" content="No Index">
+    {{-- <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
+    <meta name="author" content="Indonez"> --}}
     <meta name="theme-color" content="#E9E8F0">
     <!-- preload assets -->
     <link rel="preload" href="{{ asset('fonts/fa-brands-400.woff2') }}" as="font" type="font/woff2" crossorigin>
@@ -29,9 +29,9 @@
     <!-- uikit -->
     <script src="{{ asset('js/vendors/uikit.min.js') }}"></script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <!-- touch icon -->
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('img/apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('Logo.png') }}">
     <title>
         @yield('title')
     </title>

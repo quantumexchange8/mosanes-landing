@@ -51,7 +51,6 @@
                             <div class="in-icon-wrap circle primary-color" style="width:150px; height:150px;">
                                 <i class="fa-solid fa-pen fa-5x"></i>
                             </div>
-                            <i class="fa-solid fa-arrow-right fa-xl uk-position-absolute uk-position-center-right"></i>
                         </div>
                         <h4 class="uk-margin-small-top uk-margin-remove-bottom uk-text-primary">
                             {{ __('Sign up') }}
@@ -59,17 +58,24 @@
                         <br>
                     </div>
 
+                    <div class="uk-first-column uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                        <i class="fa-solid fa-arrow-right fa-xl"></i>
+                    </div>
+
                     <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
                         <div class="uk-padding uk-flex uk-flex-between uk-flex-middle uk-position-relative" style="gap:1rem;">
                             <div class="in-icon-wrap circle primary-color" style="width:150px; height:150px;">
                                 <i class="fa-solid fa-people-group fa-5x"></i>
                             </div>
-                            <i class="fa-solid fa-arrow-right fa-xl uk-position-absolute uk-position-center-right"></i>
                         </div>
                         <h4 class="uk-margin-small-top uk-margin-remove-bottom uk-text-primary">
                             {{ __('Refer') }}
                         </h4>
                         <br>
+                    </div>
+
+                    <div class="uk-first-column uk-flex uk-flex-column uk-flex-middle uk-flex-center">
+                        <i class="fa-solid fa-arrow-right fa-xl"></i>
                     </div>
 
                     <div class="uk-flex uk-flex-column uk-flex-middle uk-flex-center">
