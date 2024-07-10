@@ -4,7 +4,7 @@ use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('page.home.home')->with('title', 'Home');
+    return view('page.home.homes')->with('title', 'Home');
 })->name('index');
 
 Route::get('language/{locale}', function ($locale) {
