@@ -140,7 +140,7 @@
                         </p>
                     </div>
                     <div class="uk-text-center uk-margin-medium-top uk-margin-bottom uk-align-center uk-grid-margin uk-first-column">
-                        <a class="uk-button uk-button-default uk-text-capitalize uk-border-rounded" style="font-size:14px;" href="{{ route('company.contact') }}">{{ __('Be Our Introducer partner today!') }}</a>
+                        <a class="uk-button uk-button-default uk-text-capitalize uk-border-rounded" style="font-size:14px;" href="{{ route('company.contact') }}">{{ __('Contact us today!') }}</a>
                     </div>
                 </div>
             </div>

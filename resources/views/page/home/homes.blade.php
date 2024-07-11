@@ -9,21 +9,31 @@
     <!-- slideshow content begin -->
     <div class="uk-section uk-padding-remove-vertical">
         <div class="in-slideshow uk-visible-toggle" data-uk-slideshow>
+            <div class="uk-container uk-position-relative">
+                <div class="uk-width-3-4 uk-width-1-2@m uk-position-absolute uk-position-z-index index-overlay">
+                    <h1>{{ __('Get more') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('freedom') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('in the markets.') }}</h1>
+                    <p class="uk-text-lead uk-visible@m uk-width-3-4">{{ __('Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account') }}</p>
+                    <div class="in-slideshow-button">
+                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">{{ __('Open account') }}</a>
+                        <a href="{{ route('trading.account_type') }}" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">{{ __('Discover account') }}</a>
+                    </div>
+                    <p class="uk-text-small"><span class="uk-text-primary">*</span>{{ __('Trading in Forex/ CFDs is highly speculative and carries a high level of risk.') }}</p>
+                </div>
+            </div>
+
             <ul class="uk-slideshow-items" style="background-color: white;">
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.slide_overlay_text1')
                             <div class="uk-position-center">
-                                <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/man-checking-stock-market-data-tablet.png')    }}" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/man-checking-stock-market-data-tablet.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
                         </div>
                     </div>
-                </li> 
+                </li>
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.slide_overlay_text2')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/people-office-analyzing-checking-finance-graphs.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
@@ -33,7 +43,6 @@
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.slide_overlay_text1')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/successful-smart-caucasian-businessman-walking-stair-trade-stock-with-smartphone-communicate-with-happiness-enthusiastic-modern-office-background.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
@@ -43,7 +52,6 @@
                 <li>
                     <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
-                            @include('page.home.slide_overlay_text2')
                             <div class="uk-position-center">
                                 <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/abstract-background-chart-stock-market-generative-ai.png') }}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>

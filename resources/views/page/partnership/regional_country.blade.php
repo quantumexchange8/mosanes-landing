@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="uk-text-center uk-margin-medium-top uk-margin-medium-bottom">
                                     <a class="uk-button uk-button-default uk-text-capitalize uk-border-rounded" style="font-size: 14px;" href="{{ route('company.contact') }}">
-                                        {{ __('speak to our expert today') }}
+                                        {{ __('Contact us today!') }}
                                     </a>
                                 </div>
                             </div>

@@ -34,6 +34,28 @@
 .rounded {
   border-radius: 10px;
 }
+
+.index-overlay {
+  padding: 1rem;
+  left: 5%;
+  top: 1rem;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .index-overlay {
+    text-align: center;
+    top: 7rem;
+    left: 13%;
+  }
+}
+
+@media (min-width: 960px) {
+  .index-overlay {
+    top: 3rem;
+    left: 4%;
+  }
+}
+
 /* ========================================================================
    Component: Base
  ========================================================================== */

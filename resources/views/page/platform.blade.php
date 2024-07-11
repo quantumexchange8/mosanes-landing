@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- breadcrumb content begin -->
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb" style="background-color: #f4f4f4;">
+<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb" style="background-color: #F5F8FF;">
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
@@ -18,7 +18,7 @@
 </div>
 <!-- breadcrumb content end -->
 
-<div style="background-color: #f4f4f4; padding-bottom: 2rem;">
+<div style="background-color: #F5F8FF; padding-bottom: 2rem;">
     <section class="uk-margin-bottom">
         <div class="uk-container">
             <div class="uk-text-center">
