@@ -138,16 +138,16 @@
     <div class="uk-container uk-container-expand uk-background-default">
         <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
             <div class="uk-grid">
-                <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-flex uk-flex-center">
+                {{-- <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-flex uk-flex-center">
                     <img style="width: 50%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-1.png') }}" alt="">
                     <img style="width: 50%; height:90%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-2.png') }}" alt="">
-                </div>
+                </div> --}}
                 <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-text-justify">
                     <h3 class="uk-margin-remove-bottom uk-text-primary">
                         {{ __('A Global Regulated Broker') }}
                     </h3>
                     <p>
-                        {{ __('A licensed regulated broker is a financial services company that operates in the financial markets under the supervision and authorization of a regulatory authority.  Authorised and regulated by NFA (National Futures Association) &amp; LFSA (Labuan Financial Services Authority). The business of a regulated broker involves providing a platform for investors to access various financial instruments, such as stocks, bonds, forex, and commodities.') }}
+                        {{ __('A licensed regulated broker is a financial services company that operates in the financial markets under the supervision and authorization of a regulatory authority. Authorised and regulated by MSB (FINTRAC) and SVGFSA (Saint Vincent and the Grenadines). The business of a regulated broker involves providing a platform for investors to access various financial instruments, such as stocks, bonds, forex, and commodities.') }}
                         <br>
                     </p>
                     <div class="uk-flex uk-flex-center uk-grid-medium" style="padding-left: 0px;">

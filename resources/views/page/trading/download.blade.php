@@ -46,6 +46,10 @@
                             <a href="https://play.google.com/store/apps/details?id=com.spotware.ct&hl=en"><img src="{{ asset('img/android.png') }}" width="45"></a>
                             {{ __('ANDROID') }}
                         </span>
+                        <span class="uk-flex uk-flex-column uk-flex-middle">
+                            <a href="https://apps.apple.com/my/app/ctrader/id767428811?platform=iphone" style="width:45px; height:45px; text-align:center;"><img src="{{ asset('img/Apple.png') }}" width="38"></a>
+                            {{ __('IOS') }}
+                        </span>
                     </div>
                 </div>
             </div>

@@ -41,6 +41,10 @@
                     <a href="https://play.google.com/store/apps/details?id=com.spotware.ct&hl=en"><img src="{{ asset('img/android.png') }}" width="45"></a>
                     {{ __('ANDROID') }}
                 </span>
+                <span class="uk-flex uk-flex-column uk-flex-middle">
+                    <a href="https://apps.apple.com/my/app/ctrader/id767428811?platform=iphone" style="width:45px; height:45px; text-align:center;"><img src="{{ asset('img/Apple.png') }}" width="38"></a>
+                    {{ __('IOS') }}
+                </span>
             </div>
 
             <div class="uk-grid uk-margin-medium-top ">
@@ -78,10 +82,10 @@
                                             </div>
                                             <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/Instruments To Trade.png') }}" alt="">
                                                 <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
-                                                    {{ __('800+ Instruments To Trade') }}
+                                                    {{ __('200+ Instruments To Trade') }}
                                                 </h5>
                                                 <p class="uk-margin-remove-top">
-                                                    {{ __('Over 800 instruments to choose from covering all markets (FX, shares, indices and commodities)') }}
+                                                    {{ __('Over 200 instruments to choose from covering all markets (FX, shares, indices and commodities)') }}
                                                 </p>
                                             </div>
                                         </div>

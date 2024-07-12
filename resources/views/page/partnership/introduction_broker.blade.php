@@ -26,9 +26,7 @@
             </h2>
         </div>
         <p class="uk-text-justify uk-margin-small-bottom">
-            {{ __('In Mosanes Technologies (MT), we offer of partnership for introducing brokers and professional fund managers and who are looking for opportunities to increase revenue and growing their business to another level. Our partnership team will work in-sync with your business to deliver the exceptional service your clients deserve.') }}
-            <br>
-            {{ __('In addition to delivering the result, you can count on us providing unrivalled support for you and your clients.') }}
+            {{ __('In Mosanes Technologies (MT), we offer of partnership for introducing brokers and professional fund managers and who are looking for opportunities to increase revenue and growing their business to another level. Our partnership team will work in-sync with your business to deliver the exceptional service your clients deserve.') }}{{ __('In addition to delivering the result, you can count on us providing unrivalled support for you and your clients.') }}
         </p>
         <div class="uk-grid uk-margin-medium-top ">
             <div class="uk-width-7-7@l uk-width-7-7@l uk-width-7-7@s ">
@@ -107,13 +105,15 @@
                     {{ __('Why should you partner with us?') }}
                 </h2>
                 <div class="uk-child-width-2-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid" data-uk-grid="">
-                    <div class="uk-text-center uk-first-column"> <img class="uk-margin-bottom" src="{{ asset('img/GROW YOUR REVENUE STREAMS-01.png') }}" alt="">
+                    <div class="uk-text-center uk-first-column uk-flex uk-flex-middle uk-flex-column"> <img class="uk-margin-bottom" src="{{ asset('img/GROW YOUR REVENUE STREAMS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">
                             {{ __('Grow your revenue streams') }}
                         </h5>
-                        <p class="uk-margin-remove-top">
-                            {{ __('We reward volume-based incentive and attractive commission to you. As long as your customers continue to trade, you will continue to receive commission.') }}
-                        </p>
+                        <div class="uk-margin-remove-top uk-width-3-4@l">
+                            <div class="">
+                                {{ __('We reward volume-based incentive and attractive commission to you. As long as your customers continue to trade, you will continue to receive commission.') }}
+                            </div>
+                        </div>
                     </div>
                     <div class="uk-text-center"> <img class="uk-margin-bottom" src="{{ asset('img/MULTI-CURRENCY DEPOSITS-01.png') }}" alt="">
                         <h5 class="uk-text-capitalize uk-text-muted uk-margin-remove-top uk-margin-small-bottom uk-text-primary">

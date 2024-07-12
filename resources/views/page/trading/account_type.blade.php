@@ -39,6 +39,7 @@
                     <hr>
                     <p>{{ __('From 1.6 Pips') }}</p>
                     <p>{{ __('Leverage from 1:30 to 1:500') }}</p>
+                    <p>{{ __('Individual trading account') }}</p>
                     <p>{{ __('With swap') }}</p>
                     <p>{{ __('More than 200+ trading instruments') }}</p>
                 </div>

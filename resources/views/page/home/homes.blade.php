@@ -158,11 +158,15 @@
     <div class="uk-section uk-padding-large in-padding-large-vertical@s uk-background-contain in-profit-2" data-src="img/in-profit-decor-3.svg" data-uk-img>
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
-                <div class="uk-text-center">
-                    <div class="primary-title">{{ __('The advantage of MT') }}</div>
-                    <div class="primary-title">{{ __('is different from others') }}</div>
+                <div class="uk-flex uk-flex-column uk-flex-middle">
+                    <div class="primary-title">
+                        {{ __('The advantage of MT') }}@if (app()->getLocale() == 'zh_TW'){{ __('is different from others') }}@endif
+                    </div>
+                    @if (app()->getLocale() == 'en')
+                        <div class="primary-title">{{ __('is different from others') }}</div>
+                    @endif
 
-                    <p class="uk-text-lead">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
+                    <p class="uk-text-lead uk-width-3-4 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>
                 </div>
                 <div class="uk-width-5-6@m">
@@ -254,35 +258,42 @@
     <div class="uk-section uk-section-secondary uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-profit-3" data-src="img/in-section-profit-3.png" data-uk-img>
         <div class="uk-container uk-margin-small-bottom">
             <div class="uk-grid-large" data-uk-grid>
-                <div class="uk-width-1-2@m">
-                    <h2>{{ __('We are committed to meeting your CFD and FX trading needs') }}</h2>
-                    <p class="uk-text-lead">Excepteur occaeca cupidata non proident fugiat nulla pariatur quasi architecto beatae, sunt in culpa quila officia deserunt mollit anim id est aute laborum.</p>
+                <div class="">
+                    <h2 style="padding-left: 0.5rem; padding-right: 0.5rem;">{{ __('We are committed to meeting your CFD and FX trading needs') }}</h2>
                 </div>
                 <div class="uk-width-1-1">
                     <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-small-top" data-uk-grid>
-                        <div>
-                            <h1 class="uk-heading-bullet">
+                        <div class="uk-text-center uk-padding-remove">
+                            <h1 class="uk-heading-bullet uk-margin-remove">
                                 <span class="count" data-counter-end="250">0</span>M+
                             </h1>
-                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p class="uk-heading-bullet" style="color: white; font-size: 20px; font-weight: 600;">
+                                {{ __('Trading volume') }}
+                            </p>
                         </div>
-                        <div>
+                        <div class="uk-text-center uk-padding-remove">
                             <h1 class="uk-heading-bullet">
-                                <span class="count" data-counter-end="90">0</span>%
+                                <span class="count" data-counter-end="150">0</span>K+
                             </h1>
-                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p class="uk-heading-bullet" style="color: white; font-size: 20px; font-weight: 600;">
+                                {{ __('Premium clients') }}
+                            </p>
                         </div>
-                        <div>
+                        <div class="uk-text-center uk-padding-remove">
                             <h1 class="uk-heading-bullet">
-                                <span class="count" data-counter-end="131">0</span>M+
+                                <span class="count" data-counter-end="5">0</span>M+
                             </h1>
-                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p class="uk-heading-bullet" style="color: white; font-size: 20px; font-weight: 600;">
+                                {{ __('Daily capital transaction') }}
+                            </p>
                         </div>
-                        <div>
+                        <div class="uk-text-center uk-padding-remove">
                             <h1 class="uk-heading-bullet">
-                                <span class="count" data-counter-end="35">0</span>M+
+                                <span class="count" data-counter-end="1">0</span>M+
                             </h1>
-                            <p style="color: white;">Lorem ipsum dolor sit odin amet consectetur adipisicing elit.</p>
+                            <p class="uk-heading-bullet" style="color: white; font-size: 20px; font-weight: 600;">
+                                {{ __('Referral rebate payout') }}
+                            </p>
                         </div>
                     </div>
                 </div>
