@@ -39,7 +39,7 @@
                             <span>{{ __('DESKTOP') }}</span>
                         </span>
                         <span class="uk-flex uk-flex-column uk-flex-middle">
-                            <a href=""><img src="{{ asset('img/web.png') }}" width="45"></a>
+                            <a href="#"><img src="{{ asset('img/web.png') }}" width="45"></a>
                             {{ __('WEB') }}
                         </span>
                         <span class="uk-flex uk-flex-column uk-flex-middle">

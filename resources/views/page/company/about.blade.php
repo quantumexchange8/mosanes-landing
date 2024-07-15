@@ -137,12 +137,12 @@
 
     <div class="uk-container uk-container-expand uk-background-default">
         <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
-            <div class="uk-grid">
+            <div class="uk-flex uk-flex-center flex-gap-3 uk-flex-column uk-flex-row@m uk-child-width-expand">
                 {{-- <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-flex uk-flex-center">
                     <img style="width: 50%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-1.png') }}" alt="">
                     <img style="width: 50%; height:90%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-2.png') }}" alt="">
                 </div> --}}
-                <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-text-justify">
+                <div class="uk-text-justify">
                     <h3 class="uk-margin-remove-bottom uk-text-primary">
                         {{ __('A Global Regulated Broker') }}
                     </h3>
@@ -166,6 +166,21 @@
                     </div>
                     <a class="uk-button uk-button-default uk-width-1-1 uk-margin-top uk-margin-bottom uk-border-rounded" href="">
                         {{ __('Sign up now') }}
+                    </a>
+                </div>
+
+                <div class="two-by-two-grid" >
+                    <div class="grid-first" style="width: 44px;">
+                        @include('page.company.pdf_icon')
+                    </div>
+                    <a class="grid-second" target="_blank" href="{{ asset('assets/MSB-FINTRAC.pdf') }}">
+                        <div class="uk-text-20 uk-text-semibold">MSB FINTRAC</div>
+                    </a>
+                    <div class="grid-first" style="width: 44px;">
+                        @include('page.company.pdf_icon')
+                    </div>
+                    <a class="grid-second" target="_blank" href="{{ asset('assets/SVGSFA.pdf') }}">
+                        <div class="uk-text-20 uk-text-semibold">SVGSFA</div>
                     </a>
                 </div>
             </div>

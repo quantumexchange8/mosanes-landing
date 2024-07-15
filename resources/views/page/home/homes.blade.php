@@ -159,12 +159,15 @@
         <div class="uk-container">
             <div class="uk-grid uk-flex uk-flex-center">
                 <div class="uk-flex uk-flex-column uk-flex-middle">
-                    <div class="primary-title">
+                    <div class="primary-title two-line">
                         {{ __('The advantage of MT') }}@if (app()->getLocale() == 'zh_TW'){{ __('is different from others') }}@endif
                     </div>
                     @if (app()->getLocale() == 'en')
-                        <div class="primary-title">{{ __('is different from others') }}</div>
+                        <div class="primary-title two-line">{{ __('is different from others') }}</div>
                     @endif
+                    <div class="primary-title one-line">
+                        {{ __('The advantage of MT') }} {{ __('is different from others') }}
+                    </div>
 
                     <p class="uk-text-lead uk-width-3-4 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>

@@ -21,7 +21,7 @@
   font-display: block;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 640px) {
   .card-height {
     height: 35rem;
   }
@@ -31,8 +31,27 @@
   gap: 4px;
 }
 
+.flex-gap-3 {
+  gap: 12px;
+}
+
 .rounded {
   border-radius: 10px;
+}
+
+.two-by-two-grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  /* background-color: skyblue; */
+}
+
+.grid-first {
+  padding: 10px;
+  justify-self: end;
+}
+
+.grid-second {
+  align-self: center;
 }
 
 .index-overlay {
@@ -53,6 +72,28 @@
   .index-overlay {
     top: 3rem;
     left: 4%;
+  }
+
+  .grid-first {
+    align-self: center;
+  }
+}
+
+.one-line {
+  display: none;
+}
+
+.two-line {
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .one-line {
+    display: block;
+  }
+
+  .two-line {
+    display: none;
   }
 }
 
@@ -7946,6 +7987,10 @@ ul.uk-nav-sub {
   font-size: 0.764rem;
   line-height: 1.5;
 }
+.uk-text-20 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
 
 .uk-text-large {
   font-size: 1.5rem;
@@ -7965,6 +8010,10 @@ ul.uk-nav-sub {
 
 .uk-text-normal {
   font-weight: 400;
+}
+
+.uk-text-semibold {
+  font-weight: 600;
 }
 
 .uk-text-bold {
@@ -9844,6 +9893,10 @@ iframe[data-uk-cover] {
   }
   .uk-margin-remove-right\@s {
     margin-right: 0 !important;
+  }
+
+  .uk-margin-remove-bottom\@s {
+    margin-bottom: 0 !important;
   }
 }
 /* Tablet landscape and bigger */
