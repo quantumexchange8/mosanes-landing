@@ -16,7 +16,7 @@
                     <ul class="uk-list uk-link-text">
                         <li><a href="{{ route('platform') }}">cTrader</a></li>
                         <li><a href="{{ route('partnership.introduction_broker') }}">{{ __('Introduction Broker (IB)') }}</a></li>
-                        <li><a href="{{ route('partnership.regional_country') }}">{{ __('Regional & Country Partner') }}</a></li>
+                        <li><a href="{{ route('partnership.country_partner') }}">{{ __('Country Partner (CP)') }}</a></li>
                     </ul>
                 </div>
                 <div>

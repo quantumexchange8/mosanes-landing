@@ -25,8 +25,9 @@
         <div class="uk-grid-match uk-grid-medium uk-child-width-1-2@s in-card-10" data-uk-grid>
             <div class="uk-width-1-1 uk-flex uk-flex-center uk-first-column">
                 <div class="uk-width-3-5@m uk-text-center">
-                    <h1 class="uk-margin-remove">{{ __('A') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('relationship') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('on your terms.') }}
-                    </h1>
+                    <div class="uk-margin-remove uk-text-semibold" style="color: #3F3453; font-size: 33px;">
+                        {{ __('A') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('relationship') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('on your terms') }}
+                    </div>
                     <p class="uk-text-lead uk-text-muted uk-margin-remove">{{ __('Work with us the way you want.') }}</p>
                     <p>{{ __('Some believe you must choose between an online broker and a wealth management firm. Whether you invest on your own, with an advisor, or a little of both — we can support you.') }}</p>
                 </div>
@@ -68,7 +69,7 @@
                 <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
-                            <h3>{{ __('Create and choose the most suitable Account Type Today!') }}</h3>
+                            <div style="font-size: 18px; font-weight: 600; color: #3F3453;">{{ __('Create and choose the most suitable Account Type Today!') }}</div>
                         </div>
                         <div class="uk-width-auto">
                             <a class="uk-button uk-button-primary uk-border-rounded" href="">{{ __('Sign up now') }}</a>

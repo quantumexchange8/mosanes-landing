@@ -11,13 +11,23 @@
         <div class="in-slideshow uk-visible-toggle" data-uk-slideshow>
             <div class="uk-container uk-position-relative">
                 <div class="uk-width-3-4 uk-width-1-2@m uk-position-absolute uk-position-z-index index-overlay">
-                    <h1>{{ __('Get more') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('freedom') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('in the markets.') }}</h1>
-                    <p class="uk-text-lead uk-visible@m uk-width-3-4">{{ __('Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account') }}</p>
+                    @if (app()->getLocale() == 'zh_TW')
+                        <h1 class="overlay-title">
+                    @else
+                        <h1>
+                    @endif
+                        {{ __('Get more') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('freedom') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('in the markets.') }}
+                    </h1>
+                    <p class="uk-text-lead uk-visible@m uk-width-3-4">
+                        {{ __('Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account') }}
+                    </p>
                     <div class="in-slideshow-button">
                         <a href="#" class="uk-button uk-button-primary uk-border-rounded">{{ __('Open account') }}</a>
                         <a href="{{ route('trading.account_type') }}" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">{{ __('Discover account') }}</a>
                     </div>
-                    <p class="uk-text-small"><span class="uk-text-primary">*</span>{{ __('Trading in Forex/ CFDs is highly speculative and carries a high level of risk.') }}</p>
+                    <p style="font-size: 11px;">
+                        <span class="uk-text-primary">*</span>{{ __('Trading in Forex/ CFDs is highly speculative and carries a high level of risk.') }}
+                    </p>
                 </div>
             </div>
 
@@ -59,8 +69,8 @@
                     </div>
                 </li>
             </ul>
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover slide-nav-btn" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover slide-nav-btn" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
             <div class="uk-container in-slideshow-feature uk-visible@m">
                 <div class="uk-grid uk-flex uk-flex-center">
                     <div class="uk-width-3-4@m">
@@ -165,11 +175,11 @@
                     @if (app()->getLocale() == 'en')
                         <div class="primary-title two-line">{{ __('is different from others') }}</div>
                     @endif
-                    <div class="primary-title one-line">
-                        {{ __('The advantage of MT') }} {{ __('is different from others') }}
+                    <div class="primary-title one-line" style="font-size: 34px;">
+                        {{ __('The advantage of MT') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('is different from others') }}
                     </div>
 
-                    <p class="uk-text-lead uk-width-3-4 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
+                    <p class="uk-text-lead uk-width-4-5 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>
                 </div>
                 <div class="uk-width-5-6@m">

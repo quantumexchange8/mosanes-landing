@@ -47,9 +47,9 @@ Route::prefix('/partnership')->group(function() {
         return view('page.partnership.introduction_broker')->with('title', 'Introduction Broker (IB)');
     })->name('partnership.introduction_broker');
 
-    Route::get('/regional-country', function () {
-        return view('page.partnership.regional_country')->with('title', 'Regional & Country Partner');
-    })->name('partnership.regional_country');
+    Route::get('/country-partner', function () {
+        return view('page.partnership.country_partner')->with('title', 'Country Partner (CP)');
+    })->name('partnership.country_partner');
 });
 
 /**

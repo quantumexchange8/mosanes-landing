@@ -50,9 +50,9 @@
             <div class="uk-grid uk-margin-medium-top ">
                 <div class="uk-width-7-7@l uk-width-7-7@l uk-width-7-7@s ">
                     <div class="uk-margin-large-buttom">
-                        <h2 class="uk-margin-small-top uk-margin-remove-bottom uk-text-center">
+                        <h3 class="uk-margin-small-top uk-margin-remove-bottom uk-text-center">
                             {{ __('Start Your Brokerage Business With cTrader') }}
-                        </h2>
+                        </h3>
                         <p class="uk-text-center">
                             {{ __('cTrader is a complete trading platform solution for Forex and CFD brokers to offer their traders. The platform offers a wide variety of options to accommodate all potential investing preferences.') }}
                         </p>

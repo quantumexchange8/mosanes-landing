@@ -22,7 +22,7 @@
     <div class="uk-container">
         <div></div>
         <p class="uk-text-justify uk-margin-small-bottom">
-            {{ __('Partnership with us and leverage off Mosanes Technologies (MT) brand and products with your local knowledge and connections to start regional &amp; country offices in high growth areas. If you have significant experience of retail forex in any country or region, this is an opportunity to work under our brand, become a partner in the ready business, improve it and let it grow. We can provide the resources you need to take your forex business to the next level.') }}
+            {{ __('Partnership with us and leverage off Mosanes Technologies (MT) brand and products with your local knowledge and connections to start country offices in high growth areas. If you have significant experience of retail forex in any country or region, this is an opportunity to work under our brand, become a partner in the ready business, improve it and let it grow. We can provide the resources you need to take your forex business to the next level.') }}
         </p>
         <div class="uk-grid uk-margin-medium-top ">
             <section class="uk-margin-medium-bottom">
@@ -30,9 +30,9 @@
                     <div class="uk-grid">
                         <div class="uk-width-1-1">
                             <div class="uk-card uk-card-default uk-card-body">
-                                <h2 class="uk-text-center uk-margin-remove-bottom ">
-                                    {{ __('Why Become Our Regional / Country Partner?') }}
-                                </h2> <br>
+                                <div class="uk-text-center uk-margin-remove-bottom uk-text-semibold" style="font-size: 21px; color: #3F3453;">
+                                    {{ __('Why Become Our Country Partner (CP)?') }}
+                                </div> <br>
                                 <div class="uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-medium uk-grid" data-uk-grid="">
                                     <div class="uk-first-column">
                                         <div class="uk-panel uk-text-center"> <img class="uk-margin-small-bottom" src="{{ asset('img/CUSTOMIZED SOLUTION-01.png') }}" alt="">
@@ -50,7 +50,7 @@
                                                 {{ __('Direct & transparent revenue stream') }}
                                             </h5>
                                             <p class="uk-margin-remove-top">
-                                                {{ __('Regional/Country Partners receive significant revenue directly related to their efforts and performance') }}
+                                                {{ __('Country Partners receive significant revenue directly related to their efforts and performance') }}
                                             </p>
                                         </div>
                                     </div>

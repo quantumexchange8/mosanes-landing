@@ -25,14 +25,18 @@
             <div class="uk-grid">
                 <div class="uk-width-1-1 uk-flex uk-flex-center">
                     <div class="uk-text-center">
-                        <h1 class="uk-margin-small-bottom">
+                        <div class="uk-margin-small-bottom uk-text-semibold two-line" style="font-size: 32px; color: #3F3453;">
                             {{ __('Mosanes Technologies is a') }}
                             <br>
-                            <span class="in-highlight@m">
-                                {{ __('regulated Forex CFD Provider.') }}
+                            <span class="in-highlight@s">
+                                {{ __('regulated Forex CFD Provider') }}
                             </span>
-                        </h1>
-                        <p class="uk-text-lead uk-text-muted uk-margin-remove-top">
+                        </div>
+                        <div class="uk-margin-small-bottom uk-text-semibold one-line" style="font-size: 30px; color: #3F3453;">
+                            {{ __('Mosanes Technologies is a') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('regulated Forex CFD Provider') }}
+                        </div>
+
+                        <p class="uk-text-lead uk-text-muted uk-margin-remove-top" style="font-size: 18px;">
                             {{ __('Mosanes Technologies fills to the gap between retail and institutional traders, making the world more tradable for everyone.') }}
                         </p>
                     </div>
@@ -138,10 +142,6 @@
     <div class="uk-container uk-container-expand uk-background-default">
         <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
             <div class="uk-flex uk-flex-center flex-gap-3 uk-flex-column uk-flex-row@m uk-child-width-expand">
-                {{-- <div class="uk-width-1-2@l uk-width-1-2@m uk-width-1-1@s uk-flex uk-flex-center">
-                    <img style="width: 50%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-1.png') }}" alt="">
-                    <img style="width: 50%; height:90%" class="uk-flex uk-flex-center uk-align-left@l uk-margin-small-top" src="{{ asset('img/mosanes-cert-2.png') }}" alt="">
-                </div> --}}
                 <div class="uk-text-justify">
                     <h3 class="uk-margin-remove-bottom uk-text-primary">
                         {{ __('A Global Regulated Broker') }}

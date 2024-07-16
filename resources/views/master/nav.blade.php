@@ -84,8 +84,8 @@
                                         <li class="{{ request()->routeIs('partnership.introduction_broker') ? 'uk-active' : '' }}">
                                             <a href="{{ route('partnership.introduction_broker') }}">{{ __('Introduction Broker (IB)') }}</a>
                                         </li>
-                                        <li class="{{ request()->routeIs('partnership.regional_country') ? 'uk-active' : '' }}">
-                                            <a href="{{ route('partnership.regional_country') }}">{{ __('Regional & Country Partner') }}</a>
+                                        <li class="{{ request()->routeIs('partnership.country_partner') ? 'uk-active' : '' }}">
+                                            <a href="{{ route('partnership.country_partner') }}">{{ __('Country Partner (CP)') }}</a>
                                         </li>
                                     </ul>
                                 </div>
