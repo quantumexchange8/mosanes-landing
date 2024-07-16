@@ -13,11 +13,18 @@
                 <div class="uk-width-3-4 uk-width-1-2@m uk-position-absolute uk-position-z-index index-overlay">
                     @if (app()->getLocale() == 'zh_TW')
                         <h1 class="overlay-title">
+                            <div>
+                                {{ __('Get more') }}
+                            </div>
+                            <div>
+                                {{ __('freedom') }}<span class="in-highlight">{{ __('in the markets') }}</span>
+                            </div>
+                        </h1>
                     @else
                         <h1>
+                            {{ __('Get more') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('freedom') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('in the markets') }}
+                        </h1>
                     @endif
-                        {{ __('Get more') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('freedom') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('in the markets.') }}
-                    </h1>
                     <p class="uk-text-lead uk-visible@m uk-width-3-4">
                         {{ __('Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account') }}
                     </p>
