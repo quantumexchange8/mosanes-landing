@@ -179,7 +179,7 @@
                         {{ __('The advantage of MT') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('is different from others') }}
                     </div>
 
-                    <p class="uk-text-lead uk-width-4-5 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
+                    <p class="uk-text-lead uk-width-5-6 uk-text-center">{{ __('Elevate your finances with Mosanes Technologies in a secure and cost-effective environment. Our intuitive platform, extensive forex options, and dedicated customer service provide endless opportunities for you.') }}</p>
                     <i class="fas fa-chevron-down uk-text-primary"></i>
                 </div>
                 <div class="uk-width-5-6@m">

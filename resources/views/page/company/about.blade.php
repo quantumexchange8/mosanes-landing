@@ -52,7 +52,7 @@
                 <div class="uk-card uk-card-default uk-border-rounded uk-background-center uk-background-contain uk-background-image@m" data-uk-parallax="bgy: -100">
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex uk-flex-center uk-margin-auto">
-                            <div class="uk-width-3-4@m uk-text-center">
+                            <div class="uk-width-3-4@m uk-text-center uk-padding-remove">
                                 <h2>{{ __('About Us') }}</h2>
                             </div>
                             <div class="uk-margin-top uk-padding-remove">

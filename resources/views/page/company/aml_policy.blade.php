@@ -34,9 +34,9 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-margin-small-top ">
-                <h3 class="uk-text-center uk-text-capitalize">
+                <div class="uk-text-center uk-text-capitalize uk-text-semibold" style="font-size: 20px; color: #3F3453;">
                     {{ __('The process of money laundering can be divided into three sequential stages:') }}
-                </h3>
+                </div>
             </div>
             <div class="uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-medium uk-grid" data-uk-grid="">
                 <div class="uk-first-column">

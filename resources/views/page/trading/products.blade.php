@@ -24,7 +24,14 @@
             <div class="uk-width-1-1 uk-flex uk-flex-center uk-first-column">
                 <div class="uk-width-3-5@m uk-text-center">
                     <h1 class="uk-margin-remove">{{ __('Trade The') }}@if (app()->getLocale() == 'en'){{ ' ' }}@endif<span class="in-highlight">{{ __('World\'s') }}</span>@if (app()->getLocale() == 'en'){{ ' ' }}@endif{{ __('market') }}</h1>
-                    <p>{{ __('We offer access to a wide range of asset classes, including FX, metals, stocks and indice.') }}</p>
+                    <p class="products-one-line">
+                        {{ __('We offer access to a wide range of asset classes, including FX, metals, stocks and indice.') }}
+                    </p>
+                    <p class="products-two-line">
+                        {{ __('We offer access to a wide range of asset classes,') }}
+                        <br>
+                        {{ __('including FX, metals, stocks and indice.') }}
+                    </p>
                 </div>
             </div>
             <div>
