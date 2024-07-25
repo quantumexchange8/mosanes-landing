@@ -34,6 +34,7 @@
                     </div>
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
                         <li><a href="mailto:support@mosanes.com"><i class="fas fa-envelope uk-margin-small-right"></i>support@mosanes.com</a></li>
+                        <li><a href="{{ route('privacy_policy') }}">{{ __('Privacy Policy') }}</a></li>
                     </ul>
                 </div>
             </div>
