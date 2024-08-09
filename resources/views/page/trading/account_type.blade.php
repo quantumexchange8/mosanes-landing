@@ -72,7 +72,7 @@
                             <div style="font-size: 18px; font-weight: 600; color: #3F3453;">{{ __('Create and choose the most suitable Account Type Today!') }}</div>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="">{{ __('Sign up now') }}</a>
+                            <a href="https://user.mosanes.com/register" class="uk-button uk-button-primary uk-border-rounded" href="">{{ __('Sign up now') }}</a>
                         </div>
                     </div>
                 </div>

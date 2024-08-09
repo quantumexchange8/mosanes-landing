@@ -29,7 +29,7 @@
                         {{ __('Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account') }}
                     </p>
                     <div class="in-slideshow-button">
-                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">{{ __('Open account') }}</a>
+                        <a href="https://user.mosanes.com/register" class="uk-button uk-button-primary uk-border-rounded">{{ __('Open account') }}</a>
                         <a href="{{ route('trading.account_type') }}" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left uk-visible@m">{{ __('Discover account') }}</a>
                     </div>
                     <p style="font-size: 11px;">
@@ -400,7 +400,9 @@
                         <div class="uk-width-expand@m">
                             <div class="uk-grid-small uk-grid uk-grid-stack">
                                 <div class="uk-width-1-1 uk-width-auto@m uk-first-column">
-                                    <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">{{ __('Open Trading Account') }}</button>
+                                    <a href="https://user.mosanes.com/register">
+                                        <button class="uk-button uk-button-primary uk-border-rounded uk-width-expand">{{ __('Open Trading Account') }}</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

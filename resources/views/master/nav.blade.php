@@ -113,8 +113,8 @@
                     <div class="uk-navbar-right uk-width-auto">
                         <div class="uk-navbar-item uk-visible@m in-optional-nav">
                             <div>
-                                <a href="#" class="uk-button uk-button-link">{{ __('Login') }}</a>
-                                <a href="#" class="uk-button uk-button-link">{{ __('Sign up') }}</a>
+                                <a href="https://user.mosanes.com/login" class="uk-button uk-button-link">{{ __('Login') }}</a>
+                                <a href="https://user.mosanes.com/register" class="uk-button uk-button-link">{{ __('Sign up') }}</a>
                             </div>
                         </div>
                     </div>

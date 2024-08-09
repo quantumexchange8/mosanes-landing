@@ -164,7 +164,7 @@
                             {{ __('Regulated') }}
                         </div>
                     </div>
-                    <a class="uk-button uk-button-default uk-width-1-1 uk-margin-top uk-margin-bottom uk-border-rounded" href="">
+                    <a href="https://user.mosanes.com/register" class="uk-button uk-button-default uk-width-1-1 uk-margin-top uk-margin-bottom uk-border-rounded">
                         {{ __('Sign up now') }}
                     </a>
                 </div>

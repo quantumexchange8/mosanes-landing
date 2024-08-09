@@ -30,11 +30,11 @@
 
             <div class="uk-margin-auto uk-margin-bottom uk-flex uk-flex-row" style="justify-content:space-evenly; padding-top:1rem;">
                 <span class="uk-flex uk-flex-column uk-flex-middle">
-                    <a href="#"><img src="{{ asset('img/windows.png') }}" width="45"></a>
+                    <a href="https://spotware.ctrader.com/ctrader-spotware-setup.exe"><img src="{{ asset('img/windows.png') }}" width="45"></a>
                     <span>{{ __('DESKTOP') }}</span>
                 </span>
                 <span class="uk-flex uk-flex-column uk-flex-middle">
-                    <a href=""><img src="{{ asset('img/web.png') }}" width="45"></a>
+                    <a href="https://app.ctrader.com/"><img src="{{ asset('img/web.png') }}" width="45"></a>
                     {{ __('WEB') }}
                 </span>
                 <span class="uk-flex uk-flex-column uk-flex-middle">
