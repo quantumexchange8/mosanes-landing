@@ -95,6 +95,7 @@ return [
 
     'available_locales' => [
         'English' => 'en',
+        '简体中文' => 'zh_CN',
         '繁體中文' => 'zh_TW',
     ],
 
